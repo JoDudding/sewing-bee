@@ -106,10 +106,84 @@ gbsb_sewers |>
 
 #--- series eliminations ---
 
+get_eliminations <- function(num) {
+  
+  cli_alert_info('eliminations for series {num}')
+  
+  gbsb_series_tables |> 
+    filter(table_type == 'elimination') |> 
+    select(-table_type) |> 
+    filter(series == num) |> 
+    unnest(table) |> 
+    gather(-series, -2, key = 'episode', value = 'result') |> 
+    transmute(
+      series,
+      sewer = Sewer,
+      episode = parse_number(episode),
+      result = str_remove(result, '\\[.*\\]'),
+      result = case_when(
+        result == 'BG' ~ 'Garment of the week',
+        result == 'OUT' ~ 'Eliminated',
+        result == 'ELIM' ~ 'Eliminated',
+        result == 'WIN' ~ 'Winner',
+        ! str_trim(result) == '' ~ result
+      )
+    ) |> 
+    group_by(series, episode) |> 
+    filter(
+      ! is.na(result) |
+      cumsum(coalesce(result, '') %in% c('Eliminated', 'Winner')) == 0
+    ) |> 
+    ungroup()
+  
+}
+
+get_eliminations(5)
+
+#gbsb_eliminations <- map_dfr(series, get_eliminations)
+
+cli_alert_danger('not working as tables have an extra header row for series 1-5')
+
 
 #--- series ratings ---
 
+get_ratings <- function(num) {
+  
+  cli_alert_info('sewers for series {num}')
+  
+  gbsb_series_tables |> 
+    filter(table_type == 'ratings') |> 
+    select(-table_type) |> 
+    filter(series == num) |> 
+    unnest(table) |> 
+    gather(-1, -2, key = 'key', value = 'value') |> 
+    rename(episode = 2) |> 
+    mutate(
+      across(2:4, ~str_remove(.x, '\\[.*\\]')),
+      key = str_to_lower(key)
+    )
+  
+}
 
+
+gbsb_ratings <- map_dfr(series, get_ratings) |> 
+  mutate(
+    key = case_when(
+      key == 'airdate' ~ 'air_date',
+      key == 'total viewers(millions)' ~ 'total_viewers_m',
+      key == 'weekly rankingall channels' ~ 'weekly_ranking_all',
+      key == 'bbc twoweekly ranking' ~ 'weekly_ranking_bbc',
+      TRUE ~ str_replace_all(key, ' ', '_')
+    )
+  ) |> 
+  spread(key = key, value = value) |> 
+  mutate(
+    air_date = dmy(air_date),
+    total_viewers_m = as.numeric(total_viewers_m ),
+    weekly_ranking_all = as.integer(weekly_ranking_all),
+    weekly_ranking_bbc = as.integer(weekly_ranking_bbc)
+  ) |> 
+  print(n = 100)
 
 #--- series episodes ---
 
