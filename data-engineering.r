@@ -114,7 +114,7 @@ get_eliminations <- function(num) {
     filter(table_type == 'elimination') |> 
     select(-table_type) |> 
     filter(series == num) |> 
-    unnest(table) |> 
+    unnest(table, names_repair = 'minimal') |> 
     gather(-series, -2, key = 'episode', value = 'result') |> 
     transmute(
       series,
@@ -122,27 +122,45 @@ get_eliminations <- function(num) {
       episode = parse_number(episode),
       result = str_remove(result, '\\[.*\\]'),
       result = case_when(
-        result == 'BG' ~ 'Garment of the week',
-        result == 'OUT' ~ 'Eliminated',
-        result == 'ELIM' ~ 'Eliminated',
-        result == 'WIN' ~ 'Winner',
+        result %in% c('BG', 'WIN') ~ 'Garment of the week',
+        result %in% c('OUT', 'ELIM') ~ 'Eliminated',
+        str_sub(str_to_upper(result), 1, 3) == 'WIN' ~ 'Winner',
+        str_sub(str_to_upper(result), 1, 3) == 'RUN' ~ 'Runner-up',
+        result == 'WDR'~ 'Withdraw',
         ! str_trim(result) == '' ~ result
       )
     ) |> 
     group_by(series, episode) |> 
     filter(
       ! is.na(result) |
-      cumsum(coalesce(result, '') %in% c('Eliminated', 'Winner')) == 0
+      cumsum(coalesce(result, '') %in% c('Eliminated', 'Winner', 'Withdraw')) == 0
     ) |> 
     ungroup()
   
 }
 
-get_eliminations(5)
-
 #gbsb_eliminations <- map_dfr(series, get_eliminations)
 
 cli_alert_danger('not working as tables have an extra header row for series 1-5')
+
+
+bind_rows(
+  get_eliminations(5),
+  get_eliminations(6),
+  get_eliminations(7),
+  get_eliminations(8),
+  get_eliminations(9),
+  get_eliminations(10)
+) |> 
+  tabyl(series, result) |> 
+  as_tibble()
+
+get_eliminations(6) |> 
+  filter(result == 'Garment of the week')
+
+# 2 garments of the week in series 6 episode 6 looks correct
+
+
 
 
 #--- series ratings ---
@@ -164,7 +182,6 @@ get_ratings <- function(num) {
     )
   
 }
-
 
 gbsb_ratings <- map_dfr(series, get_ratings) |> 
   mutate(
@@ -190,4 +207,9 @@ gbsb_ratings <- map_dfr(series, get_ratings) |>
 
 #--- series episode themes ---
 
+
+#--- save tables as csv ---
+
+
+#--- save tables as rda ---
 
