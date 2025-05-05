@@ -1,0 +1,604 @@
+series,sewer,episode,result
+1,Ann,1,NA
+1,Lauren,1,NA
+1,Sandra,1,NA
+1,Stuart,1,NA
+1,Tilly,1,NA
+1,Mark,1,NA
+1,Michelle,1,Eliminated
+1,Jane,1,Withdraw
+1,Ann,2,NA
+1,Lauren,2,NA
+1,Sandra,2,NA
+1,Stuart,2,NA
+1,Tilly,2,Eliminated
+1,Mark,2,Eliminated
+1,Ann,3,NA
+1,Lauren,3,NA
+1,Sandra,3,NA
+1,Stuart,3,Eliminated
+1,Ann,4,Winner
+1,Lauren,4,Runner-up
+1,Sandra,4,Runner-up
+2,Heather,1,NA
+2,Chinelo,1,NA
+2,Tamara,1,NA
+2,Lynda,1,NA
+2,David,1,NA
+2,Jenni,1,NA
+2,Cerina,1,NA
+2,Julie,1,NA
+2,Simon,1,NA
+2,Cliff,1,Withdraw
+2,Heather,2,NA
+2,Chinelo,2,NA
+2,Tamara,2,NA
+2,Lynda,2,NA
+2,David,2,NA
+2,Jenni,2,NA
+2,Cerina,2,NA
+2,Julie,2,NA
+2,Simon,2,Eliminated
+2,Heather,3,NA
+2,Chinelo,3,NA
+2,Tamara,3,NA
+2,Lynda,3,NA
+2,David,3,NA
+2,Jenni,3,NA
+2,Cerina,3,NA
+2,Julie,3,Eliminated
+2,Heather,4,NA
+2,Chinelo,4,NA
+2,Tamara,4,NA
+2,Lynda,4,NA
+2,David,4,NA
+2,Jenni,4,NA
+2,Cerina,4,Eliminated
+2,Heather,5,NA
+2,Chinelo,5,NA
+2,Tamara,5,NA
+2,Lynda,5,NA
+2,David,5,NA
+2,Jenni,5,Eliminated
+2,Heather,6,NA
+2,Chinelo,6,NA
+2,Tamara,6,NA
+2,Lynda,6,NA
+2,David,6,Eliminated
+2,Heather,7,NA
+2,Chinelo,7,NA
+2,Tamara,7,NA
+2,Lynda,7,Eliminated
+2,Heather,8,Winner
+2,Chinelo,8,Runner-up
+2,Tamara,8,Runner-up
+3,Matt,1,NA
+3,Lorna,1,NA
+3,Neil,1,NA
+3,Deborah,1,NA
+3,Paul,1,NA
+3,Ryan,1,NA
+3,Amanda,1,NA
+3,Neela,1,NA
+3,Alex,1,NA
+3,Annie,1,Eliminated
+3,Matt,2,NA
+3,Lorna,2,NA
+3,Neil,2,NA
+3,Deborah,2,NA
+3,Paul,2,NA
+3,Ryan,2,NA
+3,Amanda,2,NA
+3,Neela,2,NA
+3,Alex,2,Eliminated
+3,Matt,3,NA
+3,Lorna,3,NA
+3,Neil,3,NA
+3,Deborah,3,NA
+3,Paul,3,NA
+3,Ryan,3,NA
+3,Amanda,3,NA
+3,Neela,3,Eliminated
+3,Matt,4,NA
+3,Lorna,4,NA
+3,Neil,4,NA
+3,Deborah,4,NA
+3,Paul,4,NA
+3,Ryan,4,Eliminated
+3,Amanda,4,Eliminated
+3,Matt,5,NA
+3,Lorna,5,NA
+3,Neil,5,NA
+3,Deborah,5,Eliminated
+3,Paul,5,Eliminated
+3,Matt,6,Winner
+3,Lorna,6,Runner-up
+3,Neil,6,Runner-up
+4,Charlotte,1,NA
+4,Jade,1,NA
+4,Joyce,1,NA
+4,Tracey,1,NA
+4,Rumana,1,NA
+4,Angeline,1,Garment of the week
+4,Josh,1,NA
+4,Jamie,1,NA
+4,Ghislaine,1,NA
+4,Duncan,1,Eliminated
+4,Charlotte,2,NA
+4,Jade,2,NA
+4,Joyce,2,NA
+4,Tracey,2,NA
+4,Rumana,2,NA
+4,Angeline,2,Garment of the week
+4,Josh,2,NA
+4,Jamie,2,NA
+4,Ghislaine,2,Eliminated
+4,Charlotte,3,Garment of the week
+4,Jade,3,NA
+4,Joyce,3,NA
+4,Tracey,3,NA
+4,Rumana,3,NA
+4,Angeline,3,NA
+4,Josh,3,NA
+4,Jamie,3,Eliminated
+4,Charlotte,4,NA
+4,Jade,4,NA
+4,Joyce,4,Garment of the week
+4,Tracey,4,NA
+4,Rumana,4,NA
+4,Angeline,4,NA
+4,Josh,4,Eliminated
+4,Charlotte,5,NA
+4,Jade,5,Garment of the week
+4,Joyce,5,NA
+4,Tracey,5,NA
+4,Rumana,5,NA
+4,Angeline,5,Eliminated
+4,Charlotte,6,NA
+4,Jade,6,Garment of the week
+4,Joyce,6,NA
+4,Tracey,6,NA
+4,Rumana,6,Eliminated
+4,Charlotte,7,Garment of the week
+4,Jade,7,NA
+4,Joyce,7,NA
+4,Tracey,7,Eliminated
+4,Charlotte,8,Winner
+4,Jade,8,Runner-up
+4,Joyce,8,Runner-up
+5,Juliet,1,Garment of the week
+5,Leah,1,NA
+5,Riccardo,1,NA
+5,Jen,1,NA
+5,Janet,1,NA
+5,Mercedes,1,NA
+5,Alexei,1,NA
+5,Ben,1,NA
+5,Sheila,1,NA
+5,Tom,1,Eliminated
+5,Juliet,2,NA
+5,Leah,2,Garment of the week
+5,Riccardo,2,NA
+5,Jen,2,NA
+5,Janet,2,NA
+5,Mercedes,2,NA
+5,Alexei,2,NA
+5,Ben,2,NA
+5,Sheila,2,Eliminated
+5,Juliet,3,NA
+5,Leah,3,NA
+5,Riccardo,3,NA
+5,Jen,3,NA
+5,Janet,3,NA
+5,Mercedes,3,Garment of the week
+5,Alexei,3,NA
+5,Ben,3,Eliminated
+5,Juliet,4,NA
+5,Leah,4,NA
+5,Riccardo,4,NA
+5,Jen,4,Garment of the week
+5,Janet,4,NA
+5,Mercedes,4,NA
+5,Alexei,4,Eliminated
+5,Juliet,5,Garment of the week
+5,Leah,5,NA
+5,Riccardo,5,NA
+5,Jen,5,NA
+5,Janet,5,NA
+5,Mercedes,5,Eliminated
+5,Juliet,6,NA
+5,Leah,6,NA
+5,Riccardo,6,Garment of the week
+5,Jen,6,NA
+5,Janet,6,Eliminated
+5,Juliet,7,NA
+5,Leah,7,NA
+5,Riccardo,7,Garment of the week
+5,Jen,7,Eliminated
+5,Juliet,8,Winner
+5,Leah,8,Runner-up
+5,Riccardo,8,Runner-up
+6,Clare,1,NA
+6,Matt,1,Garment of the week
+6,Nicole,1,NA
+6,Liz,1,NA
+6,Mark,1,NA
+6,Therese,1,NA
+6,Peter,1,NA
+6,Ali,1,NA
+6,Hazel,1,NA
+6,Fiona,1,NA
+6,Alex,1,NA
+6,Angillia,1,Eliminated
+6,Clare,2,NA
+6,Matt,2,NA
+6,Nicole,2,NA
+6,Liz,2,NA
+6,Mark,2,Garment of the week
+6,Therese,2,NA
+6,Peter,2,NA
+6,Ali,2,NA
+6,Hazel,2,NA
+6,Fiona,2,NA
+6,Alex,2,Eliminated
+6,Clare,3,NA
+6,Matt,3,NA
+6,Nicole,3,NA
+6,Liz,3,NA
+6,Mark,3,NA
+6,Therese,3,Garment of the week
+6,Peter,3,NA
+6,Ali,3,NA
+6,Hazel,3,NA
+6,Fiona,3,Eliminated
+6,Clare,4,NA
+6,Matt,4,NA
+6,Nicole,4,NA
+6,Liz,4,NA
+6,Mark,4,NA
+6,Therese,4,NA
+6,Peter,4,NA
+6,Ali,4,Garment of the week
+6,Hazel,4,Eliminated
+6,Clare,5,NA
+6,Matt,5,NA
+6,Nicole,5,NA
+6,Liz,5,NA
+6,Mark,5,NA
+6,Therese,5,Garment of the week
+6,Peter,5,NA
+6,Ali,5,Eliminated
+6,Clare,6,NA
+6,Matt,6,Garment of the week
+6,Nicole,6,Garment of the week
+6,Liz,6,NA
+6,Mark,6,NA
+6,Therese,6,NA
+6,Peter,6,Eliminated
+6,Clare,7,NA
+6,Matt,7,NA
+6,Nicole,7,Garment of the week
+6,Liz,7,NA
+6,Mark,7,NA
+6,Therese,7,Eliminated
+6,Clare,8,NA
+6,Matt,8,NA
+6,Nicole,8,Garment of the week
+6,Liz,8,NA
+6,Mark,8,Eliminated
+6,Clare,9,Garment of the week
+6,Matt,9,NA
+6,Nicole,9,NA
+6,Liz,9,Eliminated
+6,Clare,10,Winner
+6,Matt,10,Runner-up
+6,Nicole,10,Runner-up
+7,Serena,1,NA
+7,Raph,1,Garment of the week
+7,Rebecca,1,NA
+7,Farie,1,NA
+7,Damien,1,NA
+7,Andrew,1,NA
+7,Adeena,1,NA
+7,Adam,1,NA
+7,Cathryn,1,NA
+7,Lawratu,1,NA
+7,Jean,1,NA
+7,Julie,1,Eliminated
+7,Serena,2,NA
+7,Raph,2,NA
+7,Rebecca,2,NA
+7,Farie,2,NA
+7,Damien,2,NA
+7,Andrew,2,NA
+7,Adeena,2,Garment of the week
+7,Adam,2,NA
+7,Cathryn,2,NA
+7,Lawratu,2,NA
+7,Jean,2,Eliminated
+7,Serena,3,NA
+7,Raph,3,NA
+7,Rebecca,3,NA
+7,Farie,3,Garment of the week
+7,Damien,3,NA
+7,Andrew,3,NA
+7,Adeena,3,NA
+7,Adam,3,NA
+7,Cathryn,3,NA
+7,Lawratu,3,Eliminated
+7,Serena,4,NA
+7,Raph,4,NA
+7,Rebecca,4,NA
+7,Farie,4,Garment of the week
+7,Damien,4,NA
+7,Andrew,4,NA
+7,Adeena,4,NA
+7,Adam,4,NA
+7,Cathryn,4,Eliminated
+7,Serena,5,NA
+7,Raph,5,NA
+7,Rebecca,5,NA
+7,Farie,5,Garment of the week
+7,Damien,5,NA
+7,Andrew,5,NA
+7,Adeena,5,NA
+7,Adam,5,Eliminated
+7,Serena,6,NA
+7,Raph,6,Garment of the week
+7,Rebecca,6,NA
+7,Farie,6,NA
+7,Damien,6,NA
+7,Andrew,6,NA
+7,Adeena,6,Eliminated
+7,Serena,7,NA
+7,Raph,7,Garment of the week
+7,Rebecca,7,NA
+7,Farie,7,NA
+7,Damien,7,NA
+7,Andrew,7,Eliminated
+7,Serena,8,NA
+7,Raph,8,NA
+7,Rebecca,8,Garment of the week
+7,Farie,8,NA
+7,Damien,8,Eliminated
+7,Serena,9,Garment of the week
+7,Raph,9,NA
+7,Rebecca,9,NA
+7,Farie,9,Eliminated
+7,Serena,10,Winner
+7,Raph,10,Runner-up
+7,Rebecca,10,Runner-up
+8,Annie,1,NA
+8,Brogan,1,NA
+8,Debra,1,Garment of the week
+8,Man Yee,1,NA
+8,Cristian,1,NA
+8,Gill,1,NA
+8,Angela,1,NA
+8,Marni,1,NA
+8,Steve,1,NA
+8,Richy,1,NA
+8,Chichi,1,NA
+8,Mitch,1,Eliminated
+8,Annie,2,NA
+8,Brogan,2,NA
+8,Debra,2,NA
+8,Man Yee,2,NA
+8,Cristian,2,NA
+8,Gill,2,NA
+8,Angela,2,NA
+8,Marni,2,Garment of the week
+8,Steve,2,NA
+8,Richy,2,NA
+8,Chichi,2,Eliminated
+8,Annie,3,NA
+8,Brogan,3,NA
+8,Debra,3,Garment of the week
+8,Man Yee,3,NA
+8,Cristian,3,NA
+8,Gill,3,NA
+8,Angela,3,NA
+8,Marni,3,NA
+8,Steve,3,NA
+8,Richy,3,Eliminated
+8,Annie,4,NA
+8,Brogan,4,NA
+8,Debra,4,NA
+8,Man Yee,4,NA
+8,Cristian,4,NA
+8,Gill,4,Garment of the week
+8,Angela,4,NA
+8,Marni,4,NA
+8,Steve,4,Eliminated
+8,Annie,5,NA
+8,Brogan,5,NA
+8,Debra,5,Garment of the week
+8,Man Yee,5,NA
+8,Cristian,5,NA
+8,Gill,5,NA
+8,Angela,5,NA
+8,Marni,5,Eliminated
+8,Annie,6,Garment of the week
+8,Brogan,6,NA
+8,Debra,6,NA
+8,Man Yee,6,NA
+8,Cristian,6,NA
+8,Gill,6,NA
+8,Angela,6,Eliminated
+8,Annie,7,NA
+8,Brogan,7,NA
+8,Debra,7,NA
+8,Man Yee,7,Garment of the week
+8,Cristian,7,NA
+8,Gill,7,Eliminated
+8,Annie,8,Garment of the week
+8,Brogan,8,NA
+8,Debra,8,NA
+8,Man Yee,8,NA
+8,Cristian,8,Eliminated
+8,Annie,9,Garment of the week
+8,Brogan,9,NA
+8,Debra,9,NA
+8,Man Yee,9,NA
+8,Cristian,9,NA
+8,Gill,9,NA
+8,Angela,9,NA
+8,Marni,9,NA
+8,Steve,9,NA
+8,Richy,9,NA
+8,Chichi,9,NA
+8,Mitch,9,NA
+8,Annie,10,Winner
+8,Brogan,10,Runner-up
+8,Debra,10,Runner-up
+8,Man Yee,10,Runner-up
+9,Asmaa,1,NA
+9,Mia,1,NA
+9,Tony R,1,NA
+9,Vicki,1,NA
+9,Lauren,1,NA
+9,Lizzie,1,NA
+9,Fauve,1,NA
+9,Tony W,1,Garment of the week
+9,Matthew,1,NA
+9,Maria,1,NA
+9,Gillie,1,NA
+9,Catherine,1,Eliminated
+9,Asmaa,2,NA
+9,Mia,2,Garment of the week
+9,Tony R,2,NA
+9,Vicki,2,NA
+9,Lauren,2,NA
+9,Lizzie,2,NA
+9,Fauve,2,NA
+9,Tony W,2,NA
+9,Matthew,2,NA
+9,Maria,2,NA
+9,Gillie,2,Eliminated
+9,Asmaa,3,NA
+9,Mia,3,NA
+9,Tony R,3,NA
+9,Vicki,3,NA
+9,Lauren,3,NA
+9,Lizzie,3,Garment of the week
+9,Fauve,3,NA
+9,Tony W,3,NA
+9,Matthew,3,NA
+9,Maria,3,Eliminated
+9,Asmaa,4,NA
+9,Mia,4,Garment of the week
+9,Tony R,4,NA
+9,Vicki,4,NA
+9,Lauren,4,NA
+9,Lizzie,4,NA
+9,Fauve,4,NA
+9,Tony W,4,NA
+9,Matthew,4,Eliminated
+9,Asmaa,5,NA
+9,Mia,5,NA
+9,Tony R,5,NA
+9,Vicki,5,NA
+9,Lauren,5,NA
+9,Lizzie,5,NA
+9,Fauve,5,Garment of the week
+9,Tony W,5,Eliminated
+9,Asmaa,6,NA
+9,Mia,6,NA
+9,Tony R,6,Garment of the week
+9,Vicki,6,NA
+9,Lauren,6,NA
+9,Lizzie,6,NA
+9,Fauve,6,Eliminated
+9,Asmaa,7,Garment of the week
+9,Mia,7,NA
+9,Tony R,7,NA
+9,Vicki,7,NA
+9,Lauren,7,NA
+9,Lizzie,7,Eliminated
+9,Asmaa,8,Garment of the week
+9,Mia,8,NA
+9,Tony R,8,NA
+9,Vicki,8,NA
+9,Lauren,8,Eliminated
+9,Asmaa,9,Garment of the week
+9,Mia,9,NA
+9,Tony R,9,NA
+9,Vicki,9,Eliminated
+9,Asmaa,10,Winner
+9,Mia,10,Runner-up
+9,Tony R,10,Runner-up
+10,Luke,1,NA
+10,Ailsa,1,NA
+10,Pascha,1,NA
+10,Suzy,1,Garment of the week
+10,Alex,1,NA
+10,Marcus,1,NA
+10,Georgie,1,NA
+10,Lauren,1,NA
+10,Don,1,NA
+10,Janet,1,NA
+10,Comfort,1,NA
+10,Neil,1,Eliminated
+10,Luke,2,NA
+10,Ailsa,2,NA
+10,Pascha,2,NA
+10,Suzy,2,NA
+10,Alex,2,NA
+10,Marcus,2,NA
+10,Georgie,2,Garment of the week
+10,Lauren,2,NA
+10,Don,2,NA
+10,Janet,2,NA
+10,Comfort,2,Eliminated
+10,Luke,3,NA
+10,Ailsa,3,Garment of the week
+10,Pascha,3,NA
+10,Suzy,3,NA
+10,Alex,3,NA
+10,Marcus,3,NA
+10,Georgie,3,NA
+10,Lauren,3,NA
+10,Don,3,NA
+10,Janet,3,Eliminated
+10,Luke,4,NA
+10,Ailsa,4,NA
+10,Pascha,4,NA
+10,Suzy,4,NA
+10,Alex,4,Garment of the week
+10,Marcus,4,NA
+10,Georgie,4,NA
+10,Lauren,4,NA
+10,Don,4,Eliminated
+10,Luke,5,NA
+10,Ailsa,5,Garment of the week
+10,Pascha,5,NA
+10,Suzy,5,NA
+10,Alex,5,NA
+10,Marcus,5,NA
+10,Georgie,5,NA
+10,Lauren,5,Eliminated
+10,Luke,6,NA
+10,Ailsa,6,NA
+10,Pascha,6,Garment of the week
+10,Suzy,6,NA
+10,Alex,6,NA
+10,Marcus,6,NA
+10,Georgie,6,Eliminated
+10,Luke,7,NA
+10,Ailsa,7,NA
+10,Pascha,7,Garment of the week
+10,Suzy,7,NA
+10,Alex,7,NA
+10,Marcus,7,Eliminated
+10,Luke,8,Garment of the week
+10,Ailsa,8,NA
+10,Pascha,8,NA
+10,Suzy,8,NA
+10,Alex,8,Eliminated
+10,Luke,9,NA
+10,Ailsa,9,NA
+10,Pascha,9,Garment of the week
+10,Suzy,9,Eliminated
+10,Luke,10,Winner
+10,Ailsa,10,Runner-up
+10,Pascha,10,Runner-up

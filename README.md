@@ -1,5 +1,8 @@
 # sewing-bee
 
+![](https://img.shields.io/badge/%F0%9F%A7%B5-in_progress-blue?style=for-the-badge
+)
+
 ![](sewingbee.jpg)
 
 🧵 Data on the [Great British Sewing Bee](https://www.bbc.co.uk/programmes/b03myqj2)
@@ -17,3 +20,11 @@
 - challenge_names
 - episodes
 - results
+
+🧵 New skills to be gained
+
+- editing Wikipedia pages (to make the table formats consistent over the seasons)
+- using {rvest} package to extract data from web pages
+- using a badge in the `readme.md` file ([shields.io](https://shields.io/badges))
+- contributing a dataset to [TidyTuesday](https://github.com/rfordatascience/tidytuesday) 
+  using {[tidytuesdayR](https://dslc-io.github.io/tidytuesdayR/articles/curating.html)}

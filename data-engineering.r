@@ -13,6 +13,34 @@ library(scales)
 library(cli)
 library(rvest)
 library(janitor)
+library(tidytuesdayR)
+
+#--- hosts and judges (manual) ---
+
+gbsb_host_judge <- tibble(
+  person = c(
+    'Claudia Winkleman',
+    'Joe Lycett',
+    'Sara Pascoe',
+    'Kiell Smith-Bynoe',
+    'Patrick Grant',
+    'May Martin',
+    'Esme Young'
+  ),
+  role = c('host', 'host', 'host', 'host', 'judge_1', 'judge_2', 'judge_2'),
+  series = c(
+    list(1:4),
+    list(5:7),
+    list(8:9),
+    list(10),
+    list(1:10),
+    list(1:3),
+    list(4:10)
+  )
+) |> 
+  unnest_longer(series) |> 
+  spread(key = role, value = person) |> 
+  print()
 
 #--- series overview ---
 
@@ -30,7 +58,14 @@ gbsb_overview <- gbsb_tables  |>
     premiere = dmy(premiere),
     finale = dmy(finale)
   ) |> 
+  left_join(gbsb_host_judge, by = 'series') |> 
   print()
+
+gbsb_overview |> 
+  saveRDS('data/gbsb_overview.rds')
+
+gbsb_overview |> 
+  write_csv('data/gbsb_overview.csv')
 
 #--- get information from series pages ---
 
@@ -63,7 +98,6 @@ gbsb_series_tables <- gbsb_series_wiki |>
   ) |> 
   ungroup() |> 
   select(-wiki)
-  
 
 #--- series sewers ---
 
@@ -104,6 +138,12 @@ gbsb_sewers |>
   ) |> 
   print()
 
+gbsb_sewers |> 
+  saveRDS('data/gbsb_sewers.rds')
+
+gbsb_sewers |> 
+  write_csv('data/gbsb_sewers.csv')
+
 #--- series eliminations ---
 
 get_eliminations <- function(num) {
@@ -115,6 +155,7 @@ get_eliminations <- function(num) {
     select(-table_type) |> 
     filter(series == num) |> 
     unnest(table, names_repair = 'minimal') |> 
+    remove_empty(which = 'cols') |> 
     gather(-series, -2, key = 'episode', value = 'result') |> 
     transmute(
       series,
@@ -139,29 +180,21 @@ get_eliminations <- function(num) {
   
 }
 
-#gbsb_eliminations <- map_dfr(series, get_eliminations)
+gbsb_eliminations <- map_dfr(series, get_eliminations)
 
-cli_alert_danger('not working as tables have an extra header row for series 1-5')
-
-
-bind_rows(
-  get_eliminations(5),
-  get_eliminations(6),
-  get_eliminations(7),
-  get_eliminations(8),
-  get_eliminations(9),
-  get_eliminations(10)
-) |> 
-  tabyl(series, result) |> 
-  as_tibble()
+gbsb_eliminations |> 
+  count(result)
 
 get_eliminations(6) |> 
   filter(result == 'Garment of the week')
 
 # 2 garments of the week in series 6 episode 6 looks correct
 
+gbsb_eliminations |> 
+  saveRDS('data/gbsb_eliminations.rds')
 
-
+gbsb_eliminations |> 
+  write_csv('data/gbsb_eliminations.csv')
 
 #--- series ratings ---
 
@@ -202,14 +235,21 @@ gbsb_ratings <- map_dfr(series, get_ratings) |>
   ) |> 
   print(n = 100)
 
+gbsb_ratings |> 
+  saveRDS('data/gbsb_ratings.rds')
+
+gbsb_ratings |> 
+  write_csv('data/gbsb_ratings.csv')
+
 #--- series episodes ---
 
 
 #--- series episode themes ---
 
 
-#--- save tables as csv ---
+#--- tidytuesday submission ---
+# https://dslc-io.github.io/tidytuesdayR/articles/curating.html
 
+#tt_clean()
 
-#--- save tables as rda ---
-
+#-------------------------------------------------------------------------------
