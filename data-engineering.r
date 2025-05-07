@@ -228,6 +228,7 @@ gbsb_ratings <- map_dfr(series, get_ratings) |>
   ) |> 
   spread(key = key, value = value) |> 
   mutate(
+    episode = as.integer(episode ),
     air_date = dmy(air_date),
     total_viewers_m = as.numeric(total_viewers_m ),
     weekly_ranking_all = as.integer(weekly_ranking_all),
