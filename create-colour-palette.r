@@ -35,4 +35,4 @@ gbsb_palette |>
 #--- save palette ---
 
 gbsb_palette |> 
-  saveRDS('data/gbsb_ratings.rds')
+  saveRDS('data/gbsb_palette.rds')
