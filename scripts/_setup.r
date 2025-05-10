@@ -42,15 +42,15 @@ showtext_auto()
 
 # check the colour palette objects files have been created and load palette
 
-if(
-  ! file.exists('data/gbsb_palette.rds') |
-  ! file.exists('data/gbsb_colours.rds')
+if (
+  !file.exists("data/gbsb_palette.rds") |
+    !file.exists("data/gbsb_colours.rds")
 ) {
-  cli_abort('Create palettes first by running {.file scripts/create-colour-palette.r}')
+  cli_abort("Create palettes first by running {.file scripts/create-colour-palette.r}")
 }
 
-gbsb_palette <- readRDS('data/gbsb_palette.rds')
-gbsb_col <- readRDS('data/gbsb_colours.rds')
+gbsb_palette <- readRDS("data/gbsb_palette.rds")
+gbsb_col <- readRDS("data/gbsb_colours.rds")
 
 # load fonts
 
@@ -59,18 +59,20 @@ font_add_google("Domine", "domine")
 
 # set the theme
 
-base_size = 10
+base_size <- 10
 
 theme_set(
   theme_minimal(base_size = base_size) +
     theme(
       text = element_text(family = "franklin", colour = gbsb_col$dark),
-      plot.title = element_text(family = "franklin", size = rel(1.5), face = "bold",
-        lineheight = 1.2),
+      plot.title = element_text(
+        family = "franklin", size = rel(1.5), face = "bold",
+        lineheight = 1.2
+      ),
       plot.subtitle = element_text(family = "franklin", size = rel(1.2)),
       plot.caption = element_text(family = "franklin", hjust = 0),
-      plot.title.position = 'plot',
-      plot.caption.position = 'plot',
+      plot.title.position = "plot",
+      plot.caption.position = "plot",
       panel.background = ggplot2::element_rect(fill = gbsb_col$pale, colour = NA),
       plot.background = ggplot2::element_rect(fill = gbsb_col$pale, colour = NA),
       legend.background = ggplot2::element_rect(fill = gbsb_col$pale, colour = NA),
@@ -84,12 +86,14 @@ theme_set(
 
 # set defaults for geoms
 
-update_geom_defaults('col', aes(fill = gbsb_col$red, colour = NA))
-update_geom_defaults('line', aes(colour = gbsb_col$blue, linewidth = 1))
-update_geom_defaults('segment', aes(colour = gbsb_col$blue))
-update_geom_defaults('point', aes(colour = gbsb_col$blue, size = 2))
-update_geom_defaults('text', aes(family = "franklin", colour = gbsb_col$dark,
-  size = base_size / .pt * 0.8))
+update_geom_defaults("col", aes(fill = gbsb_col$red, colour = NA))
+update_geom_defaults("line", aes(colour = gbsb_col$blue, linewidth = 1))
+update_geom_defaults("segment", aes(colour = gbsb_col$blue))
+update_geom_defaults("point", aes(colour = gbsb_col$blue, size = 2))
+update_geom_defaults("text", aes(
+  family = "franklin", colour = gbsb_col$dark,
+  size = base_size / .pt * 0.8
+))
 
 #--- functions ---
 
@@ -97,7 +101,7 @@ update_geom_defaults('text', aes(family = "franklin", colour = gbsb_col$dark,
 
 gg_save <- function(pic_name, plot = last_plot(), width = 7, height = width / 1.618, ...) {
   ggsave(
-    filename = glue::glue('charts/{pic_name}.png'),
+    filename = glue::glue("charts/{pic_name}.png"),
     plot = plot,
     width = width,
     height = height,
@@ -105,7 +109,7 @@ gg_save <- function(pic_name, plot = last_plot(), width = 7, height = width / 1.
   )
 }
 
-# customer ggplot scales 
+# customer ggplot scales
 
 scale_fill_series <- function(...) {
   scale_fill_manual(..., values = series_pal)
@@ -116,27 +120,25 @@ scale_colour_series <- function(...) {
 }
 
 scale_x_comma <- function(
-    ..., 
-  breaks = scales::pretty_breaks(),
-  expand_min = 0,
-  expand_max = 0.05
-) {
+    ...,
+    breaks = scales::pretty_breaks(),
+    expand_min = 0,
+    expand_max = 0.05) {
   scale_x_continuous(
-    ..., 
-    breaks = breaks, 
+    ...,
+    breaks = breaks,
     expand = expansion(mult = c(expand_min, expand_max))
   )
 }
 
 scale_y_comma <- function(
-    ..., 
-  breaks = scales::pretty_breaks(),
-  expand_min = 0,
-  expand_max = 0.05
-) {
+    ...,
+    breaks = scales::pretty_breaks(),
+    expand_min = 0,
+    expand_max = 0.05) {
   scale_y_continuous(
-    ..., 
-    breaks = breaks, 
+    ...,
+    breaks = breaks,
     expand = expansion(mult = c(expand_min, expand_max))
   )
 }
