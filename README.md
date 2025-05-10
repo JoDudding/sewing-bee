@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/%F0%9F%A7%B5-in_progress-blue?style=for-the-badge
 )
 
-![](sewingbee.jpg)
+![](assets/sewingbee.jpg)
 
 🧵 Data on the [Great British Sewing Bee](https://www.bbc.co.uk/programmes/b03myqj2)
 
@@ -12,24 +12,65 @@
 🧵 Inspiration from the [bakeoff](https://github.com/apreshill/bakeoff) package
 
 
-🧵 Tables:
+## 🧵 Tables:
 
 - series ✓
 - sewers ✓
 - ratings ✓
-- challenge_names
-- episodes
 - results ✓
+- challenge_names ✓
+- episodes ✓
 
-🧵 New skills to be gained
+## 🧵 New skills to be gained
 
-- editing Wikipedia pages (to make the table formats consistent over the seasons)
-- using {rvest} package to extract data from web pages
-- using a badge in the `readme.md` file ([shields.io](https://shields.io/badges))
+- editing Wikipedia pages (to make the table formats consistent over the seasons) ✓
+- using {rvest} package to extract data from web pages ✓
+- using a badge in the `readme.md` file ([shields.io](https://shields.io/badges)) ✓
 - contributing a dataset to [TidyTuesday](https://github.com/rfordatascience/tidytuesday) 
   using {[tidytuesdayR](https://dslc-io.github.io/tidytuesdayR/articles/curating.html)}
 
-![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbG1lNzJ4bDBkNjd2N3U4ajY2MWhsamd6Nmg0ZmV3aXhyb3E1eHoxbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9f4LtNbI9LzKIOxLYh/giphy.gif)
-![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHpobGY4bXJxMTk4dzZienA1cGs5Z256aDQ1cnhhMmhxZmV2aHJ5MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hjhEeqWAEipMEIDvBx/giphy.gif)  
+# 🧵 Overall winner rates by standing after episode 4
+
+This looks at the rankings and wins for the first four episodes 
+for the sewers that lasted until then, to see the likelihood of becoming the
+overall winner.
+
+![](charts/winner-num-pattern.png)
+
+![](charts/winner-best-pattern.png)
+
+![](charts/winner-num-transformation.png)
+
+![](charts/winner-best-transformation.png)
+
+![](charts/winner-num-gow.png)
+
+
+## 🧵 Viewership charts
+
+Inspired by the bakeoff recipes, here are 10 ways of looking at the same viewership data.
+
+![](charts/viewership-bar.png)
+
+![](charts/viewership-lollipop.png)
+
+![](charts/viewership-line.png)
+
+![](charts/viewership-facet.png)
+
+![](charts/viewership-line-p-f.png)
+
+![](charts/viewership-dumbbell.png)
+
+![](charts/viewership-slope.png)
+
+![](charts/viewership-f-bump.png)
+
+![](charts/viewership-pct-change.png)
+
+![](charts/viewership-pct-lolli.png)
+
+![](charts/viewership-scatter.png)
+
 ![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjl1NnQ1MWNiYnUwbHY0emExbHVsMDBqeDd6Yzc0Zmkxd3Z6bzNlcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qisTnBL5wNXZaSNecx/giphy.gif)
 

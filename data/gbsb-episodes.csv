@@ -1,0 +1,596 @@
+series,episode,sewer,pattern_rank,transformation_name,transformation_rank,made_to_measure_name,garmet_of_week_win
+1,1,Ann,3,—,NA,Crepe wool shift dress,0
+1,1,Jane,4,—,NA,—,0
+1,1,Lauren,2,—,NA,—,0
+1,1,Mark,7,V-neck,NA,Cotton colour block shift dress,0
+1,1,Michelle,5,Square Neckline with lace panel insertion,NA,Reversible silk wrap dress,0
+1,1,Sandra,1,Facing scallop neckline,NA,Tailored denim shirt dress,0
+1,1,Stuart,8,—,NA,Empire-line dress with pleated skirt,0
+1,1,Tilly,6,—,NA,Scalloped neck dress,0
+1,2,Ann,1,Diagonal checked square pockets,NA,Fine silk cerise blouse,0
+1,2,Lauren,2,Gathered floral pockets,NA,Silk peplum blouse,0
+1,2,Mark,6,Skull print pockets (angled),NA,18th century chemise,0
+1,2,Sandra,4,Square polka dot pockets with folded corner,NA,Frilly chiffon blouse,0
+1,2,Stuart,5,"Semi circle red ""tulip"" pockets",NA,Raw silk chinese blouse,0
+1,2,Tilly,3,Semi circle polka dot pockets,NA,Shift blouse with red piping,0
+1,3,Ann,2,Fitted/tailored dress,NA,Buclé tweed edge to edge jacket,0
+1,3,Lauren,1,Dress with pleated skirt and orange belt,NA,Fitted tweed hacking jacket,0
+1,3,Sandra,3,Fitted dress with red piping,NA,Softly tailored wrap collar jacket,0
+1,3,Stuart,4,Side rippled dress,NA,Boiled wool alpine jacket,0
+1,4,Ann,1,Freeform couching,NA,Lace and taffeta cocktail dress,0
+1,4,Lauren,3,Sequin Zigzags,NA,Sequin gown with asymmetric satin bodice,0
+1,4,Sandra,2,Applique Petals,NA,Teal satin gown with plunging back,0
+2,1,Cerina,2,Short Skirt with small bottom Frill,6,1930's Style Bias Cut Nightgown,0
+2,1,Chinelo,7,Fitted Peplum Skirt,2,Floor Length Nightgown,0
+2,1,Cliff,10,Short Skirt with 2 Godets,10,Withdrew,0
+2,1,David,8,Short Skirt with 2 Godets,9,Semi-Fitted Empire-Line Nightgown,0
+2,1,Heather,1,Short Skirt with back Box Pleat,7,Lingerie Nightgown,0
+2,1,Jenni,4,Dungarees,5,1940's Style Floor Length Nightgown,0
+2,1,Julie,5,Short Skirt with a Godet and Pocket,8,Bias Cut Nightgown,0
+2,1,Lynda,6,Short Skirt with a Godet and Pocket,4,Empire-Line Nightgown,0
+2,1,Simon,9,Short Skirt with jetted Pocket and Godet,3,Shot Silk Dupion Nightdress,0
+2,1,Tamara,3,Short Skirt with Gathered Ruffle,1,Empire-Line Babydoll Nightgown,0
+2,2,Cerina,3,Little girl's sailor dress,3,Cotton Lawn Pyjamas,0
+2,2,Chinelo,4,Button-down Boob Tube,2,Striped Pull-on Pyjamas,0
+2,2,David,6,Skirt,7,"Brushed Cotton, Checked Pyjamas",0
+2,2,Heather,1,Women's Shirt with ruffle frill,8,Striped Pyjamas,0
+2,2,Jenni,7,Skirt,5,Classic Pyjamas,0
+2,2,Julie,9,Women's Shirt,6,Striped Cotton Pyjamas,0
+2,2,Lynda,5,Little girl's dress,4,Candy Striped Pyjamas,0
+2,2,Simon,8,Shirt Dress,9,"Brushed Cotton, Checked Pyjamas",0
+2,2,Tamara,2,Skirt,1,Newsprint Pyjamas,0
+2,3,Cerina,3,Child's Dancing Leotard,1,Simple Wrap Dress,0
+2,3,Chinelo,5,Asymmetric Maxi Dress,2,Stretch Velvet Dress,0
+2,3,David,2,Zip V-neck Top,8,Faux Wrap Dress,0
+2,3,Heather,7,Halter Neck Top with Plunge Backline,3,Sleeveless Classic Wrap Dress,0
+2,3,Jenni,8,Plated back Top,4,Retro Wrap Dress,0
+2,3,Julie,6,Ladies Top with Ruching around the neck,7,Dressing Gown Dress,0
+2,3,Lynda,1,Pleated and Darted Dress with Belt,6,Classic Wrap Dress with Set in Sleeves,0
+2,3,Tamara,4,Dress,5,Cap Sleeve Lipstick Dress,0
+2,4,Cerina,7,Pirate Suit,1,Shift Dress,0
+2,4,Chinelo,3,Princess/Ballerina,7,Big Bow Prom Dress,0
+2,4,David,1,Ladybird,5,Satin Prom Dress,0
+2,4,Heather,4,Autumnal Flower Fairy meet Princess,6,Shot Silk Prom Dress,0
+2,4,Jenni,2,Dinosaur,3,Vintage Inspired Prom Dress,0
+2,4,Lynda,6,Queen of Hearts,2,Mini Prom Dress,0
+2,4,Tamara,5,Superhero,4,Neoprene Prom Dress,0
+2,5,Chinelo,4,Leather frill,2,Peplum Trousers,0
+2,5,David,3,Wrap front with plunging neckline,6,Chino-style Trousers,0
+2,5,Heather,5,Blouse with plunging neckline,5,Classic Slim Fitting Trousers,0
+2,5,Jenni,2,Backless Leather top,3,High Waisted Trousers,0
+2,5,Lynda,6,Leather side panels with asweetheart neckline,1,Classic Straight-legged Trousers,0
+2,5,Tamara,1,Leather frill collar,4,Capri Pants,0
+2,6,Chinelo,2,Pencil Dress,1,1940s Coat,0
+2,6,David,5,Halterneck Top,4,1940s Police Coat,0
+2,6,Heather,1,Boob Tube,3,1953 Swing Coat,0
+2,6,Lynda,4,Pinafore dress,2,1950s Wool Flannel Coat,0
+2,6,Tamara,3,Backwards Tuxedo Top,5,1967 Coat,0
+2,7,Chinelo,3,Tucked Sleeve,1,Party Dress,0
+2,7,Heather,2,Gathered Puff Sleeve,2,Shift Dress,0
+2,7,Lynda,1,Classic Set-in Sleeve,4,Wrap Dress,0
+2,7,Tamara,4,Gathered Puff Sleeve,3,Yoga Outfit,0
+2,8,Chinelo,3,Classic Bridesmaid Dress,1,Hourglass Gown,0
+2,8,Heather,2,Classic Bridesmaid Dress,2,Horse Chain Gown,0
+2,8,Tamara,1,Classic Bridesmaid Dress,3,Slashed Couture Dress,0
+3,1,Alex,10,Pink Tulle and Denim Skirt,1,60s Dress,0
+3,1,Amanda,7,Child's Dress,3,Picnic Dress,0
+3,1,Annie,4,Sleeved Dress,10,Classic Tea Dress,0
+3,1,Deborah,5,Pencil Skirt,6,Fit & Flare Dress,0
+3,1,Lorna,2,Child's Skirt,2,Long-Sleeved Princess-Seamed Dress,0
+3,1,Matt,6,Skirt,5,Sleeveless Dress,0
+3,1,Neela,3,Skirt,9,Princess-Seamed Dress,0
+3,1,Neil,1,Skirt,8,Princess-Seamed Dress,0
+3,1,Paul,9,Dress,4,A-Line Dress,0
+3,1,Ryan,8,Dress,7,50s Tea Dress,0
+3,2,Alex,6,Harem Trousers,4,Cupcake Dress,0
+3,2,Amanda,8,Cape,9,Flapper Dress,0
+3,2,Deborah,7,Cardigan/Belero Jacket,5,Peacock Dress,0
+3,2,Lorna,2,Swimming Suit,2,Booby Bird,0
+3,2,Matt,5,Pair of Shorts,8,Peacock Dress,0
+3,2,Neela,9,Asymmetric Dress,7,Bookworm,0
+3,2,Neil,3,Boxing Shorts & Gloves,1,Smartphone,0
+3,2,Paul,4,Shirred Waisted Skirt,6,Ballerina Elephant,0
+3,2,Ryan,1,Shirred Dress,3,Urban Fox,0
+3,3,Amanda,8,Prom Skirt,3,Pussy Bow Blouse,0
+3,3,Deborah,7,Panelled Wrap Skirt,6,Semi-Fitted Bow Blouse,0
+3,3,Lorna,5,Skirt with Big Bow,1,Sweetheart Blouse,0
+3,3,Matt,2,Girl's Dress,5,Sleeveless Fitted Blouse,0
+3,3,Neela,6,Top,8,Collared Blouse,0
+3,3,Neil,3,Ladies Evening Dress,2,Draped Blouse,0
+3,3,Paul,4,Skirt,7,Semi-Fitted Blouse,0
+3,3,Ryan,1,Man's Short-Sleeve Shirt,4,Sleeveless Fitted Peplum Blouse,0
+3,4,Amanda,7,Draped Top,7,Linton Tweed Female Kilt,0
+3,4,Deborah,4,Jacket,5,Wool Traditional Kilt,0
+3,4,Lorna,5,Maternity Top,4,Traditional Kilt (in a Gunn Ancient Tartan),0
+3,4,Matt,2,Dress,3,Cotton Female Kilt,0
+3,4,Neil,1,Cocktail Dress,1,Traditional Kilt (in a Culloden Tartan),0
+3,4,Paul,3,Dress,6,Glittered Denim Kilt,0
+3,4,Ryan,6,All-in-one Dress,2,Contemporary Kilt,0
+3,5,Deborah,3,Dress,1,Collarless Jacket,0
+3,5,Lorna,2,Dress,2,Cropped Jacket,0
+3,5,Matt,1,Lace Skirt Dress,4,Fitted Biker Jacket,0
+3,5,Neil,4,Halter Neck Dress,3,Asymmetrical jacket,0
+3,5,Paul,5,Dress,5,Fitted Jacket,0
+3,6,Lorna,2,'Lampshade' Dress,1,Fitted Strapless Minidress with Long Overskirt,0
+3,6,Matt,3,Halter Neck Dress,2,Couture-inspired Geometric Dress,0
+3,6,Neil,1,'Skanklet',3,Asymmetric Gown,0
+4,1,Angeline,3,Skirt,4,Peplum pencil skirt,1
+4,1,Charlotte,2,Skirt,5,1950s circle skirt,0
+4,1,Duncan,8,Skirt,8,Silk petal circle skirt,0
+4,1,Ghislaine,7,Skirt,6,Pleated wraparound skirt,0
+4,1,Jade,5,Skirt,9,High-waisted tutu skirt,0
+4,1,Jamie,1,Draped dress,1,Flounce skirt,0
+4,1,Josh,9,Skirt,7,Flared denim skirt,0
+4,1,Joyce,6,Godet dress,2,Multi-panelled skirt,0
+4,1,Rumana,10,Dress,3,Obi apron maxi skirt,0
+4,1,Tracey,4,Tabard,10,Woollen circle skirt,0
+4,2,Angeline,8,Mermaid Dress,8,Tartan Godet Cape,1
+4,2,Charlotte,1,Party Dress,6,Tweed Collared Cape,0
+4,2,Ghislaine,9,Boxing Outfit,1,Sunday Best Cape,0
+4,2,Jade,2,Bridesmaid Dress,7,Fur Trimmed Cape,0
+4,2,Jamie,6,Shift Dress,4,Classic Gentleman's Cape,0
+4,2,Josh,7,Gilet Jacket,9,Reversible Hooded Cape,0
+4,2,Joyce,4,Princess Dress,5,Love-Heart Cape,0
+4,2,Rumana,3,Butterfly Dress,2,Satin Lined Cape,0
+4,2,Tracey,5,Forest Fairy Dress,3,Butterfly Cape,0
+4,3,Angeline,8,Cami Top,3,Vintage Style Satin Robe,0
+4,3,Charlotte,2,Babydoll,4,Cotton Lawn Robe,1
+4,3,Jade,6,Cami Top,5,Piped Silk Robe,0
+4,3,Jamie,4,Lady Boxers,6,Quilted Silk Housecoat,0
+4,3,Josh,7,Jumpsuit,8,Satin Housecoat,0
+4,3,Joyce,1,Babydoll,2,Lined Robe,0
+4,3,Rumana,5,Camisole,7,Lace Kimono,0
+4,3,Tracey,3,Camisole,1,Satin and Lace Robe,0
+4,4,Angeline,3,Kimono Shirt,4,Choker Minidress,0
+4,4,Charlotte,5,Harem Pants,2,Ruffle dress,0
+4,4,Jade,6,Harem Pants,7,Waterfall Peplum Dress,0
+4,4,Josh,2,Belly Dancer Outfit,5,Contrast Dress,0
+4,4,Joyce,7,Harem Pants,6,Capped Sleeve Dress,1
+4,4,Rumana,4,Panel Dress,3,Sheath Dress with Cape,0
+4,4,Tracey,1,Shirt,1,Knee Length Dress,0
+4,5,Angeline,4,Cut Out Dress,6,Psychedelic Coat,0
+4,5,Charlotte,2,Halter Dress,5,Jackie Kennedy Jacket,0
+4,5,Jade,5,Crop Top & Shirt,4,Cropped Jacket,1
+4,5,Joyce,1,Smock,1,Peacoat Jacket,0
+4,5,Rumana,3,Gathered Top,2,A-Line Coat,0
+4,5,Tracey,6,Spot Shift Dress,3,Tweed Cardigan Jacket,0
+4,6,Charlotte,3,Fur Trimmed Duffel,4,Drapey Yoga Outfit,0
+4,6,Jade,4,80's Puffy Coat,1,Contrast Panel Yoga Outfit,1
+4,6,Joyce,2,Bomber Jacket,3,Yoga Leggings and T-shirt,0
+4,6,Rumana,5,Pink Bird Coat,2,Vest Yoga Outfit,0
+4,6,Tracey,1,Blue Coat,5,Criss-cross Yoga Outfit,0
+4,7,Charlotte,1,Collared Dress,1,Cowl Neck Dress,1
+4,7,Jade,3,Draped Dress,3,Skater Skirt Dress,0
+4,7,Joyce,2,Beach Dress,4,Panelled Tea Dress,0
+4,7,Tracey,4,Pleated Top and Skirt,2,1950s Style Dress,0
+4,8,Charlotte,3,Halter LBD,1,Satin & Diamonte Gown,0
+4,8,Jade,2,Chunky Zip LBD,2,Beaded Gown,0
+4,8,Joyce,1,Sequin LBD,3,Bodice & Bustle Skirt,0
+5,1,Alexei,7,Skirt,2,Military Jumpsuit,0
+5,1,Ben,2,Top,6,Cropped Jumpsuit,0
+5,1,Janet,9,Dress,4,Nautical Jumpsuit,0
+5,1,Jen,3,Halter Neck Dress,1,Denim Piping Jumpsuit,0
+5,1,Juliet,1,Off the Shoulder Top,10,Asymmetric Jumpsuit,1
+5,1,Leah,10,Dress,5,Peacock Print Jumpsuit,0
+5,1,Mercedes,6,Dress,9,Mustard Denim Jumpsuit,0
+5,1,Riccardo,8,Top,8,80s-style Wrap Jumpsuit,0
+5,1,Sheila,4,Top,3,Monochrome Jumpsuit,0
+5,1,Tom,5,Mini Dress,7,Pop Art Jumpsuit,0
+5,2,Alexei,7,Cheetah Outfit,4,Forest Fairy Dance Outfit,0
+5,2,Ben,9,Ant Outfit,1,Contemporary Dance Outfit,0
+5,2,Janet,1,Cat Outfit,3,Sailor's Hornpipe Dance Outfit,0
+5,2,Jen,2,Exotic Bird Outfit,2,Highland Dance Outfit,0
+5,2,Juliet,5,Bee/Wolf Outfit,7,Igbo Cultural Dance Outfit,0
+5,2,Leah,4,Superhero Cheetah Outfit,5,Black and White 'Swan Lake' Dance Outfit,1
+5,2,Mercedes,3,Princess Sunshine Outfit,8,80s Street Dance Outfit,0
+5,2,Riccardo,6,Dragon Outfit,6,Tarantella Dance Outfit,0
+5,2,Sheila,8,Carnival Queen Outfit,9,Sparkling Street Dance Outfit,0
+5,3,Alexei,7,Punk Tartan Outfit,8,Satin-Lined Maxi Dress,0
+5,3,Ben,8,Punk Tartan Outfit,4,Mushroom Maxi Dress,0
+5,3,Janet,5,Punk Tartan Outfit,7,Ditsy Print Maxi Dress,0
+5,3,Jen,1,Punk Tartan Outfit,2,Lee Bender Maxi Dress,0
+5,3,Juliet,4,Punk Tartan Outfit,6,'Flouncy' Maxi Dress,0
+5,3,Leah,3,Punk Tartan Outfit,5,Sheer Maxi Dress,0
+5,3,Mercedes,6,Punk Tartan Outfit,3,1973 Maxi Dress,1
+5,3,Riccardo,2,Punk Tartan Outfit,1,Tiered Crepe Maxi Dress,0
+5,4,Alexei,7,Hooded Dog Coat,4,Active Outdoor Tracksuit,0
+5,4,Janet,2,Strapped Dog Coat,6,Baseball Tracksuit,0
+5,4,Jen,3,Camouflage Dog Coat,1,Minimalist Scuba Tracksuit,1
+5,4,Juliet,1,Caped 'Sherlock Holmes' Dog Coat,2,Camo Scuba Tracksuit,0
+5,4,Leah,5,Grey and Mint Dog Coat,5,Lightweight Shell Suit,0
+5,4,Mercedes,6,Pink Dog Coat,3,Yoke-Stripe Tracksuit,0
+5,4,Riccardo,4,Dog Coat with Handle,7,80s Scuba Tracksuit,0
+5,5,Janet,2,Patchwork Reversible Waterproof Jacket,1,Boned Curtains Day Dress,0
+5,5,Jen,3,Panelled Skirt,5,Floral Curtains Day Dress,0
+5,5,Juliet,1,Crop Top and Skirt,3,Net Curtains Day Dress,1
+5,5,Leah,5,Child's Dress,4,Stripy Blinds Day Dress,0
+5,5,Mercedes,6,Mini Dress,6,Sci-Fi Curtains Day Dress,0
+5,5,Riccardo,4,Patchwork Dress,2,Charity's Curtains Day Dress,0
+5,6,Janet,4,Top and Rah-Rah Skirt,5,London Landmarks Wool Coat,0
+5,6,Jen,1,Skirt and Top,2,Harris Tweed 60s Swing Coat,0
+5,6,Juliet,2,A-line Mini Dress,4,Camel Wool Mid-length Coat,0
+5,6,Leah,5,Skirt and Top,1,Camel Wool 60s Swing Coat,0
+5,6,Riccardo,3,Knickerbockers and Top,3,Harris Tweed 70s Cropped Coat,1
+5,7,Jen,1,Shorts and Shirt,4,Puzzle Pattern Origami Top,0
+5,7,Juliet,2,Off the Shoulder Top and Skirt,2,Spiral Origami Top,0
+5,7,Leah,4,Plaited Skirt Dress,1,Spots and Stripes Origami Top,0
+5,7,Riccardo,3,Plaited Front Dress,3,'Ode to Bjork' Origami Top,1
+5,8,Juliet,1,Big Bow and Draped Skirt Dress,2,Asymmetric Strapless Evening Gown,0
+5,8,Leah,2,Big Bow Long Flowing Dress,1,'Magic' Strapless Evening Gown,0
+5,8,Riccardo,3,Green and White Dress,3,Jellyfish Trap Strapless Evening Gown,0
+6,1,Alex,10,Mini Dress,9,Dancefloor Tea Dress,0
+6,1,Ali,3,A-line Mini Skirt,7,Country Fair Tea Dress,0
+6,1,Angillia,7,Frilled Tunic,12,Elegant Tea Dress,0
+6,1,Clare,9,Halter Neck Dress,3,40s Floral Tea Dress,0
+6,1,Fiona,4,Skirt,10,Floral Ruffle Tea Dress,0
+6,1,Hazel,11,Pleated Skirt,6,African Wax Print Tea Dress,0
+6,1,Liz,6,Corset,5,90s Ditsy Grunge Tea Dress,0
+6,1,Mark,5,Skirt,11,Flower Power Tea Dress,0
+6,1,Matt,8,Skirt,4,Prim and Proper Tea Dress,1
+6,1,Nicole,12,Fringe Skirt,2,Caribbean Carnival Tea Dress,0
+6,1,Peter,1,Dress,1,Festival Tea Dress,0
+6,1,Therese,2,Sleeveless Tunic,8,50s Swirly Tea Dress,0
+6,2,Alex,7,Wrap Top,10,Chest Appeal Holiday Shirt,0
+6,2,Ali,1,Rah-Rah Skirt,5,Festival Holiday Shirt,0
+6,2,Clare,2,Beach Cover-Up,8,Peruvian Holiday Short,0
+6,2,Fiona,11,Beach Cover-Up,9,1950s Style Holiday Shirt,0
+6,2,Hazel,9,Beach Cover-Up,3,African Wax Print Holiday Shirt,0
+6,2,Liz,6,Tunic,6,Koi Carp Holiday Shirt,0
+6,2,Mark,4,Beach Cover-Up,7,Tropical Holiday Shirt,1
+6,2,Matt,5,Short Skirt,11,Ode to Frida Holiday Shirt,0
+6,2,Nicole,10,Shorts Suit,2,Shirt-Jac Holiday Shirt,0
+6,2,Peter,8,Beach Cover-Up,1,Contemporary Holiday Shirt,0
+6,2,Therese,3,Dress,4,Parrot Fashion Holiday Shirt,0
+6,3,Ali,3,Pepperoni Pizza Outfit,5,Decorator's Dungarees,0
+6,3,Clare,9,Watermelon Wedge Outfit,2,Safari Dungarees,0
+6,3,Fiona,6,Watermelon Outfit,9,Geometric Print Dungarees,0
+6,3,Hazel,4,Cheese Burger Outfit,6,Cosmic Dungarees,0
+6,3,Liz,2,Pumpkin Outfit,7,Shorty Star Dungarees,0
+6,3,Mark,7,Packet of Crisps Outfit,4,Flash of Flamingo Dungarees,0
+6,3,Matt,1,Apple Outfit,10,Mustard Dungarees,0
+6,3,Nicole,5,Carrot Outfit,8,Nautical Dungarees,0
+6,3,Peter,8,Sushi Outfit,3,Utility Dungarees,0
+6,3,Therese,10,Purple Grapes Outfit,1,Summer Dungarees,1
+6,4,Ali,5,Zigzag Toddler's Onesie,8,Bold Floral Tennis Outfit,1
+6,4,Clare,2,Rainbow Toddler's Onesie,3,Science Nerd Tennis Outfit,0
+6,4,Hazel,7,Pink Cape Toddler's Onesie,4,1970's Cotton Poplin Tennis Outfit,0
+6,4,Liz,9,Turquoise and Black Toddler's Onesie,9,Punky Tennis Outfit,0
+6,4,Mark,3,Neon Stripe Toddler's Onesie,5,Vintage (With a Twist) Tennis Outfit,0
+6,4,Matt,4,Leopard Print Toddler's Onesie,7,1980's Neon Tennis Outfit,0
+6,4,Nicole,1,Animal Print Toddler's Onesie,2,Retro Towelling Tennis Outfit,0
+6,4,Peter,8,Polka Dot Toddler's Onesie,6,Multi-Purpose Tennis Outfit,0
+6,4,Therese,6,Floral Toddler's Onesie,1,All-Black Tennis Outfit,0
+6,5,Ali,6,Skating Outfit,6,Leopard Print Sleep Set,0
+6,5,Clare,1,Dress,4,1940's Peekaboo Sleep Set,0
+6,5,Liz,3,Maxi Dress,8,Comfy Goth Sleep Set,0
+6,5,Mark,4,Skirt,5,Winceyette Sleep Set,0
+6,5,Matt,5,Dress,3,Silky and Sensual Sleep Set,0
+6,5,Nicole,2,Dungarees,1,Baby Doll Sleep Set,0
+6,5,Peter,8,Bolero Jacket,2,Abstract Cotton Sleep Set,0
+6,5,Therese,7,Blouse,7,Floral Cotton Sleep Set,1
+6,6,Clare,2,Skirt,5,1920s Puffin Winter Dress,0
+6,6,Liz,3,Bell-Shaped Skirt,3,Panelled Chevron Winter Dress,0
+6,6,Mark,1,Trench Coat,6,Asymmetric Winter Dress,0
+6,6,Matt,5,Dress with Train,7,Multi-Panelled Skirt Winter Dress,1
+6,6,Nicole,6,Jacket,4,Stripy Puzzle Winter Dress,1
+6,6,Peter,7,Dress,1,Wicked Witch Winter Dress,0
+6,6,Therese,4,Bell-Shaped Dress,2,Twisted Jumper Winter Dress,0
+6,7,Clare,2,Cone Bra Top and Ruffled Skirt,1,80s Puffball Cocktail Dress,0
+6,7,Liz,3,Green Puff Skirt Dress,5,80s Cartoon Hero Cocktail Dress,0
+6,7,Mark,4,Top and Shorts,2,Vintage 80s Cocktail Dress,0
+6,7,Matt,1,Strapless Top and Skirt,4,80s Soap Opera Diva Cocktail Dress,0
+6,7,Nicole,5,Off-the-shoulder Top and Skirt,3,80s Split and Shimmer Cocktail Dress,1
+6,7,Therese,6,Top and 'Bucks Fizz' Skirt,6,80s Black and Gold Cocktail Dress,0
+6,8,Clare,1,Child's Dress,1,Formal Curtain Flamenco Skirt,0
+6,8,Liz,3,Kimono,2,Gothic Flamenco Skirt,0
+6,8,Mark,5,Jacket,4,Wrap Flamenco Skirt,0
+6,8,Matt,2,Women's Beach Set,3,Modern Scuba Flamenco Skirt,0
+6,8,Nicole,4,Frilled Culottes,5,Global Flamenco Skirt,1
+6,9,Clare,2,Copper Tubing Dress,1,Three Layer Art Deco Flapper Dress,1
+6,9,Liz,4,Leather-Studded Sleeve Dress,4,Cobweb Crossover Flapper Dress,0
+6,9,Matt,1,'Barbarella' Dress,3,Vintage New York Flapper Dress,0
+6,9,Nicole,3,Black and Silver Collar Dress,2,"Silk, Feather, and Gold Flapper Dress",0
+6,10,Clare,1,Purple Wings Carnival Outfit,2,1930s Hollywood Red Carpet Gown,0
+6,10,Matt,3,Upside-down Bodice Carnival Outfit,3,Leather and Gold Red Carpet Gown,0
+6,10,Nicole,2,Sparkly Blue Carnival Outfit,1,Feathers and Bling Red Carpet Gown,0
+7,1,Adam,6,Dress,2,70's Cruise Buffet Dress,0
+7,1,Adeena,10,Harem Pants,8,South Asian Buffet Dress,0
+7,1,Andrew,5,Dress,1,Crocheted Buffet Dress,0
+7,1,Cathryn,9,Child's Skirt,5,Cactus Buffet Dress,0
+7,1,Damien,12,Long Skirt,12,Royal Ascot Buffet Dress,0
+7,1,Farie,8,Child's Dungarees,3,Chic Buffet Dress,0
+7,1,Jean,3,Dress,9,Roomy Buffet Dress,0
+7,1,Julie,11,Halter Top,11,Broderie Anglaise Buffet Dress,0
+7,1,Lawratu,7,Romper,6,Pocket Buffet Dress,0
+7,1,Raph,4,Crop Top,7,Broderie Anglaise Buffet Dress,1
+7,1,Rebecca,2,Child's Dress,4,Mum's Buffet Dress,0
+7,1,Serena,1,Shorts,10,Ode to Vilanelle Buffet Dress,0
+7,2,Adam,8,Dress,1,50s Fit and flare Dress,0
+7,2,Adeena,9,Busy Dress,3,Two Way Dress,1
+7,2,Andrew,3,Orange Stripe Dress,10,40s Contrast Dress,0
+7,2,Cathryn,4,Strap Top,4,Key Print Sundress,0
+7,2,Damien,6,Fringed Dress,6,Coconut Dress,0
+7,2,Farie,5,Neon Dress,8,Summer Shirt Dress,0
+7,2,Jean,11,Batwing Top,9,Elegant Floral Dress,0
+7,2,Lawratu,10,Sunrise Dress,11,Cross-Back Dress,0
+7,2,Raph,1,Rocket Dress,7,Seaside Holiday Dress,0
+7,2,Rebecca,7,Asymmetric Skirt,5,Summer Swing Dress,0
+7,2,Serena,2,Dress,2,Statement Sleeve Dress,0
+7,3,Adam,3,Back-to-Front Top,2,Navy Jacket,0
+7,3,Adeena,9,Strap Top,7,Camouflage Jacket,0
+7,3,Andrew,7,Skirt,8,Metal Worker's Jacket,0
+7,3,Cathryn,4,Dress,9,Parker Jacket,0
+7,3,Damien,10,Skirt,5,Cowboy Jacket,0
+7,3,Farie,5,Back-to-Front Top,10,Ankara Jacket,1
+7,3,Lawratu,8,Back-to-Front Top,4,Safari Jacket,0
+7,3,Raph,1,Dress,3,Overshirt Jacket,0
+7,3,Rebecca,6,Dress,6,Raglan Sleeve Jacket,0
+7,3,Serena,2,Top,1,Summer Jacket,0
+7,4,Adam,8,Dress,1,'Puff Sleeve' Playsuit,0
+7,4,Adeena,5,Kaftan,7,'Kahlo-esque' Lehenga,0
+7,4,Andrew,2,Pink Shirt,3,'Traditional Huipil' and Flared Skirt,0
+7,4,Cathryn,6,Dress,8,'From Russia With Love' Shift Dress,0
+7,4,Damien,3,Dress with Cape,4,'Frida's Self Portrait' Dress,0
+7,4,Farie,9,Childs Top/Dress,6,'Broken Column' Dress,1
+7,4,Raph,4,Childs Playsuit,5,'Modern Huipil' with Cord Culottes,0
+7,4,Rebecca,7,Top and Skirt,2,'Hot Pink' Off-The-Shoulder Outfit,0
+7,4,Serena,1,Beach Robe,9,'Smart' Top and Trouser Combo,0
+7,5,Adam,6,Mermaid,4,Boat Coat,0
+7,5,Adeena,8,Rainbow Fish,6,Dinosaur Coat,0
+7,5,Andrew,7,Crab,1,Reversible Coat,0
+7,5,Damien,5,Mermaid,8,Aquatic Jacket,0
+7,5,Farie,3,Shark,7,Unicorn Raincoat,1
+7,5,Raph,4,Mermaid,5,French-Guatemalan Coat,0
+7,5,Rebecca,2,Octopus,3,Rain-Cloud Coat,0
+7,5,Serena,1,Jelly Fish,2,Fun Waterproof,0
+7,6,Adeena,7,V-Neck Tunic,7,Paisley Paint Dress,0
+7,6,Andrew,3,Poncho,4,Pythagoras Theorem Denim Dress,0
+7,6,Damien,6,Cross Straps Dress,5,Family Fabric Denim Dress,0
+7,6,Farie,4,Cape,1,Monochrome Dress,0
+7,6,Raph,1,Asymmetric Dress,2,Tormented Ocean Dress,1
+7,6,Rebecca,5,Dress,6,Patchwork Dress,0
+7,6,Serena,2,Halterneck Dress,3,Sporty Colour Block Dress,0
+7,7,Andrew,3,Middle Ages Dress,2,Bow Sleeve Party Dress,0
+7,7,Damien,2,Edelweiss Top,6,Zip Up & Down Party Dress,0
+7,7,Farie,6,Dress,1,Stretch Velvet Party Dress,0
+7,7,Raph,5,Stripy Top,5,Gold Surprise Party Dress,1
+7,7,Rebecca,4,Top and Skirt,3,Satin & Lace Party Dress,0
+7,7,Serena,1,Medieval Top,4,She's the Boss Party Dress,0
+7,8,Damien,5,Shorts with Braces,4,Foxy Cleopatra,0
+7,8,Farie,4,Jumpsuit,5,Elegant Disco Dress,0
+7,8,Raph,3,Lederhosen,3,Disco Jumpsuit,0
+7,8,Rebecca,2,Dress with a Skort,2,Glamorous Disco Gown,1
+7,8,Serena,1,Floral Short Suit,1,Sequinned Sash,0
+7,9,Farie,4,Evening Gown,3,Colour Block Dress,0
+7,9,Raph,1,Wedding Gown,2,Space-Age Design,0
+7,9,Rebecca,3,Dress,4,Floral Ensemble,0
+7,9,Serena,2,Dress,1,Tailored Two-Piece,1
+7,10,Raph,3,"Shorts, top, headdress, and bag",1,Kate-Bush-inspired red 'curtains' dress,0
+7,10,Rebecca,2,Skirt and top,3,Floral scuba floor length dress with godet train,0
+7,10,Serena,1,Top with trousers attached,2,Acid yellow flounce dress,0
+8,1,Angela,1,Elizabethan Top,11,Summer Wrap Dress,0
+8,1,Annie,8,,3,African Floral Print Wrap Dress,0
+8,1,Brogan,3,,4,Ruffle Wrap Dress,0
+8,1,Chichi,10,,6,Oen-Back Wrap Dress,0
+8,1,Cristian,5,,5,Flounce Wrap Dress,0
+8,1,Debra,4,,10,Ethereal Wrap Dress,1
+8,1,Gill,6,,7,Duchess of Cambridge Inspired Wrap Dress,0
+8,1,Man Yee,9,,2,Organza Wrap Dress,0
+8,1,Marni,2,,1,Flutter Sleeve Wrap Dress,0
+8,1,Mitch,12,Dennis the Menace,12,ABBA Inspired Wrap Dress,0
+8,1,Richy,7,,9,Kimono Inspired Wrap Dress,0
+8,1,Steve,11,,8,Colour Block Wrap Dress,0
+8,2,Angela,11,NA,5,Lancashire Cricket Jacket Inspired by Andrew Flintoff,0
+8,2,Annie,2,NA,11,Tennis Jacket inspired by Serena Williams,0
+8,2,Brogan,7,NA,1,Team GB jacket inspired by Dame Jess Ennis-Hill,0
+8,2,Chichi,9,NA,8,One-Sleeved Track Jacket inspired by Surya Bonaly and Florence Griffith Joyner,0
+8,2,Cristian,8,NA,9,Poolside Jacket inspired by Tom Daley,0
+8,2,Debra,6,NA,2,Welsh rugby jacket inspired by Alun-Wyn Jones,0
+8,2,Gill,10,NA,6,Gold Medal Jacket inspired by Nicola Adams,0
+8,2,Man Yee,1,NA,4,Climbing Jacket Inspired by Kim Ja-In,0
+8,2,Marni,3,NA,3,Rowing Jacket inspired by Major Heather Stanning,1
+8,2,Richy,4,NA,10,Diving Board Jacket inspired by Tom Daley,0
+8,2,Steve,5,NA,7,80's Print Track Jacket inspired by Florence Griffith Joyner,0
+8,3,Angela,4,,1,Crop Top Summer Co-Ord,0
+8,3,Annie,7,,7,African Wax Print Co-Ord,0
+8,3,Brogan,1,,2,Spanish Inspired Summer Co-Ord,0
+8,3,Cristian,3,,3,Cheese Plant Co-Ord,0
+8,3,Debra,8,,4,Sailing Co-Ord,1
+8,3,Gill,6,,8,Shell Top Co-Ord,0
+8,3,Man Yee,5,,5,Lemons Bustier Co-Ord,0
+8,3,Marni,2,pink dress,9,Ribbed Crop Top Co-Ord,0
+8,3,Richy,9,,6,Sex in the City Co-Ord,0
+8,3,Steve,10,shorts set,10,Tropical Beach Co-Ord,0
+8,4,Angela,7,,6,Button Front Summer Dress,0
+8,4,Annie,5,,2,Seventies Maxi Dress,0
+8,4,Brogan,2,,3,Nana-Chic Maxi Dress,0
+8,4,Cristian,6,,5,Family Heirloom Maxi Dress,0
+8,4,Debra,1,Cape,9,Big Cat maxi Dress,0
+8,4,Gill,3,,4,Chevron Skirt Maxi Dress,1
+8,4,Man Yee,8,,1,Ruffle Dress,0
+8,4,Marni,4,,8,Cross Front Maxi Dress,0
+8,4,Steve,9,,7,Psychedelic Eighties Dress,0
+8,5,Angela,6,Jumpsuit,1,Spider,0
+8,5,Annie,8,,6,Dragon,0
+8,5,Brogan,4,,4,Umbrella Bat,0
+8,5,Cristian,2,,2,Funny Clown,0
+8,5,Debra,5,,7,Miss Havisham,1
+8,5,Gill,7,,8,Dalek,0
+8,5,Man Yee,1,,3,Spider,0
+8,5,Marni,3,,5,Dark Fairy,0
+8,6,Angela,6,NA,6,Labyrinth Coat Dress,0
+8,6,Annie,3,NA,7,80's Fashion Blazer Dress,1
+8,6,Brogan,1,NA,2,Let's Dance Party Dress,0
+8,6,Cristian,2,NA,3,Ziggy Stardust Catsuit,0
+8,6,Debra,4,NA,4,Ashes to Ashes Trouser Suit,0
+8,6,Gill,7,NA,1,Ziggy Flame Dress,0
+8,6,Man Yee,5,NA,5,Rebel Rebel Two-Piece,0
+8,7,Annie,1,NA,2,ASAP Rocky Inspired Pyjamas,0
+8,7,Brogan,3,NA,4,Cheeseplant Fabric Pyjamas,0
+8,7,Cristian,5,NA,3,Satin Pyjamas,0
+8,7,Debra,4,NA,1,Noel Coward Inspired Pyjamas,0
+8,7,Gill,6,NA,6,Goldfish Pyjamas,0
+8,7,Man Yee,2,NA,5,Dad Inspired Pyjamas,1
+8,8,Annie,5,NA,3,Jean Harlow Dress - In Red,1
+8,8,Brogan,4,NA,5,Ginger Rogers Dress,0
+8,8,Cristian,2,NA,4,Stretch Dress,0
+8,8,Debra,3,NA,2,Golden Dress,0
+8,8,Man Yee,1,NA,1,Jean Harlow Dress,0
+8,9,Annie,1,Jacket,2,Origami Bunny Dress,1
+8,9,Brogan,3,Skirt,3,Origami Lotus Flower Dress,0
+8,9,Debra,4,Pinafore,4,Origami Mount Fuji & Cherry Blossom Dress,0
+8,9,Man Yee,2,Skirt,1,Origami Crane Dress,0
+8,10,Annie,3,Top,2,Metallic Jumpsuit with Bow,0
+8,10,Brogan,4,Top and Skirt,4,Leopard Print Playsuit,0
+8,10,Debra,1,Dress,3,Multicolour Jumpsuit,0
+8,10,Man Yee,2,Top,1,Sequin Jumpsuit,0
+9,1,Asmaa,1,Skirt and Top,6,Open Back Cut-Out Dress,0
+9,1,Catherine,12,Cat Peek Dress,5,Sateen Cut-Out Dress,0
+9,1,Fauve,5,Pink Top,9,Floral Cut-Out Dress,0
+9,1,Gillie,11,Floral Outfit,4,Cut-Out Sundress,0
+9,1,Lauren,6,Dress,7,Linen Cut-Out Dress,0
+9,1,Lizzie,10,Gathered Outfit,3,Dior-Inspired Cut-Out Dress,0
+9,1,Maria,8,Blue Tunic Top,12,Broderie Anglaise Cut-Out Dress,0
+9,1,Matthew,3,Bondage Shirt,1,Harness Cut-Out Dress,0
+9,1,Mia,7,Yellow Top,8,Cut-Out Mini Dress,0
+9,1,Tony R,2,Shorts,11,Rockabilly Cut-Out Dress,0
+9,1,Tony W,9,Waistcoat,10,Stretch Fabric Cut-Out Dress,1
+9,1,Vicki,4,Orange Sleeve Top,2,1980s Cut-Out Dress,0
+9,2,Asmaa,2,Jacket & Skirt,1,Marilyn Monroe Inspired Swimsuit,0
+9,2,Fauve,5,Wrap Coat,9,Wild Swimming Costume,0
+9,2,Gillie,11,Patriotic Coat,7,South of France Inspired Swimsuit,0
+9,2,Lauren,4,Frilled Cape,5,Belted Swimsuit,0
+9,2,Lizzie,10,Loop Cape,10,Frilly Ruffle Swimsuit,0
+9,2,Maria,6,Alien Vs Predator,8,Retro Inspired Swimsuit,0
+9,2,Matthew,8,Giant Hood Coat,4,Transgender Flag Swimsuit,0
+9,2,Mia,9,Bow Top,6,Puff Sleeve Swimsuit,1
+9,2,Tony R,3,Red and yellow stripe coat,3,Cornish Sea Swimsuit,0
+9,2,Tony W,7,Pink Binding Coat,2,Halterneck Swimsuit,0
+9,2,Vicki,1,All in one,11,Sun Safe Swimsuit,0
+9,3,Asmaa,1,,6,Jellabiya Boubou,0
+9,3,Fauve,10,,8,Fringed Boubou,0
+9,3,Lauren,5,Grecian Goddess,2,Fans Boubou,0
+9,3,Lizzie,8,Spotty asymetrical dress,1,Colour Block Boubou,1
+9,3,Maria,4,purple dress,10,Chiffon Boubou,0
+9,3,Matthew,6,,7,Man's Boubou,0
+9,3,Mia,9,,4,Puffy Ruffly Boubou,0
+9,3,Tony R,3,red halterneck,9,Flounce Boubou,0
+9,3,Tony W,7,,3,Billowing Boubou,0
+9,3,Vicki,2,,5,Midi Boubou,0
+9,4,Asmaa,1,NA,1,Flower Power Coat,0
+9,4,Fauve,8,NA,6,Swinging 60's Dress,0
+9,4,Lauren,5,NA,9,Culotte & Crop Top Set,0
+9,4,Lizzie,6,NA,2,Striped Dress & Hooded Bomber,0
+9,4,Matthew,7,NA,5,Nan's A-Line Dress,0
+9,4,Mia,3,NA,3,Box Jacket & Mini Skirt,1
+9,4,Tony R,9,NA,4,Festival Two Piece,0
+9,4,Tony W,4,NA,7,Stripes & Chevron Two Piece,0
+9,4,Vicki,2,NA,8,Bohemian Dress,0
+9,5,Asmaa,2,Nautilus Shell Top,1,Cream Dress,0
+9,5,Fauve,4,,4,Architectural Dress,1
+9,5,Lauren,7,Dark Armour Dress,2,Illusion Shirt Dress,0
+9,5,Lizzie,1,,5,Ode to Picasso,0
+9,5,Mia,6,,3,Cloud Dress,0
+9,5,Tony R,5,Blue & White Top,6,This is a Dress,0
+9,5,Tony W,8,Blue Jacket,8,Gothic Bridal Gown,0
+9,5,Vicki,3,V-Neck Top,7,Dali Inspired Outfit,0
+9,6,Asmaa,2,Black Jacket with Neon Twists,7,Aqua Birthday Party Dress,0
+9,6,Fauve,7,Stars & Tulle Jacket,5,Floral Jumpsuit,0
+9,6,Lauren,3,Patchwork Jacket,6,Sunday Best Dress,0
+9,6,Lizzie,1,Soviet Cosmonaut Jacket,1,Waistcoat & Tiered Skirt,0
+9,6,Mia,5,Frilled Sleeveless Jacket,4,Christmas Party Dress,0
+9,6,Tony R,6,Dinosaur Camo Jacket,2,Neoprene Party Dress,1
+9,6,Vicki,4,Hearts & Lace Jacket,3,Princess Party Dress,0
+9,7,Asmaa,2,Jennifer Lopez,6,Boned Bustier,1
+9,7,Lauren,4,Scary Spice,1,Bias Cut Slip Dress,0
+9,7,Lizzie,6,Lady Raver @ Prodigy Gig,5,Liquid Gold Slip Dress,0
+9,7,Mia,5,Madonna,2,Liz Hurley Inspired Dress,0
+9,7,Tony R,3,Ginger Spice Dress,3,Body Con Dress,0
+9,7,Vicki,1,Ginger Spice 2 Piece,4,Satin Corset Dress,0
+9,8,Asmaa,1,Bikini with Bolero & Skirt,4,Purple Velvet Smoking Jacket,1
+9,8,Lauren,5,Halter Neck Clear Dress,2,Chenille Smoking Jacket,0
+9,8,Mia,2,Stars Cocktail Dress,1,Harry Styles Jacquared Jacket,0
+9,8,Tony R,4,Bondage Skirt with Cape,5,Willy Wonka Purple Cordury Jacket,0
+9,8,Vicki,3,Frilled Yellow Dress,3,Rainforest Pocketless Jacket,0
+9,9,Asmaa,1,Carnival top with Scourer Pom-Poms,3,Rock Chick Boilersuit,1
+9,9,Mia,3,Rubber gloves Dress,2,Floral Boilersuit for Mum,0
+9,9,Tony R,2,Tabard & Mops dress,4,Camo Boilersuit,0
+9,9,Vicki,4,Checkerboard Scourer Pleated Top,1,Orange is the New Black Boilersuit,0
+9,10,Asmaa,2,Black & Silver Spectacular,1,Blue Shift Dress/Emerald Gown with Bow,0
+9,10,Mia,1,David Bowie Skort,3,Little Black Dress/Pink Glitter Gown,0
+9,10,Tony R,3,70's Collar with Pink Cravat,2,Puffball Dress/Psychedelic Fishtail Dress,0
+10,1,Ailsa,8,Multi-panel Cardigan,8,Wrap Dress,0
+10,1,Alex,2,Nautical Two Piece,5,Gingham Dress,0
+10,1,Comfort,7,Ladder Back Top,2,Cocoon Dress,0
+10,1,Don,11,Bra Top and Skirt,10,Godet Dress,0
+10,1,Georgie,9,Little Dress,4,Tablecloth Dress,0
+10,1,Janet,4,Skirt and Top,3,Garden Party Dress,0
+10,1,Lauren,3,Spotty Skirt,11,Maxi Dress,0
+10,1,Luke,5,Graphic Top,6,Hand-Painted Utility Dress,0
+10,1,Marcus,6,Hat,7,Shirt Dress,0
+10,1,Neil,10,Fitted Dress,12,1970's Dress,0
+10,1,Pascha,1,Skirt,9,Milkmaid Dress,0
+10,1,Suzy,12,A-symetric Top,1,Duvet Dress,1
+10,2,Ailsa,9,Torn Apart Set,2,Team Canada Golf Kit,0
+10,2,Alex,4,Panelled Floor Length Dress,1,GB Marathon Kit,0
+10,2,Comfort,10,Set,10,Ugandan Rugby Kit,0
+10,2,Don,8,Scarecrow Set,6,Golfing Two Piece,0
+10,2,Georgie,2,Dress,9,Trinidad & Tobago Track Kit,1
+10,2,Janet,11,Dress,8,Jazzy Leotard,0
+10,2,Lauren,6,Bow Top,7,Sequin Leotard,0
+10,2,Luke,3,Piping Dress,4,Spanish Track Kit,0
+10,2,Marcus,1,Balaclava,11,Speed Climbing Kit,0
+10,2,Pascha,5,Cut Out Dress,5,GB Javelin Kit,0
+10,2,Suzy,7,Full Skirt Dress,3,Weightlifting Unitard,0
+10,3,Ailsa,1,Cinch Bag,3,French Riviera Plazzo Pants,1
+10,3,Alex,3,Convertible Bag,1,French Riviera Jumpsuit,0
+10,3,Don,10,Rucksack,8,French Riviera Sunflower Trousers & Top,0
+10,3,Georgie,4,Purse and Bag,4,Beach to Bar Skirt & Top,0
+10,3,Janet,8,Boot Bag,10,French Riviera Cocktail Twin Set,0
+10,3,Lauren,6,Tote Bag,7,Chic Chiffon Two-Piece,0
+10,3,Luke,1,Whistle Rucksack,2,French Riviera Shirt & Trousers,0
+10,3,Marcus,9,Rucksack,9,French Riviera Ruffle Top & Skirt,0
+10,3,Pascha,5,Duck Bag,5,Sailor Trousers & Top,0
+10,3,Suzy,7,Circle Bag,6,French Riviera Polka Dot Skirt & Top,0
+10,4,Ailsa,2,,4,Arty Party Dress,0
+10,4,Alex,3,,6,"""Ta Dah"" Party Dress",1
+10,4,Don,9,Black & Red,8,Ruffled Party Dress,0
+10,4,Georgie,4,,5,Lace Party Dress,0
+10,4,Lauren,7,,3,80's Puffball Dress,0
+10,4,Luke,5,Champagne Dress,2,80's Power Party Dress,0
+10,4,Marcus,6,Multi-Panel Jacket & Shorts,9,Red Carpet Party Outfit,0
+10,4,Pascha,1,Dracula Dress,1,Cocktail Party Dress,0
+10,4,Suzy,8,,7,"""Dance All Night"" Party Dress",0
+10,5,Ailsa,4,Shorts Suit,5,Scotland & India - Together at Last,1
+10,5,Alex,1,Maxi Dress,8,Red Carpet Glamour Gown,0
+10,5,Georgie,6,Multi Gathered Bonanza,1,Green Goddess Sari Dress,0
+10,5,Lauren,7,Short Suit,7,Silver Silk Sari Dress,0
+10,5,Luke,3,Patchwork Dress,3,Big Drape Drag Dress,0
+10,5,Marcus,2,Dress,4,A Dress for Bally,0
+10,5,Pascha,5,Frilled Top and Skirt,2,All-In-One Sari Dress,0
+10,5,Suzy,8,Dress with Pockets,6,Gold & Green Mini Dress,0
+10,6,Ailsa,1,Dalmatian,3,Mum's Mermaid Inspired Party Dess,0
+10,6,Alex,2,Lion,2,Party Dungarees & Top,0
+10,6,Georgie,5,Butterfly,7,Double Denim Jumpsuit,0
+10,6,Luke,7,Fish,5,Bi-Coloured Braces Boilersuit,0
+10,6,Marcus,3,Frog,6,Spaceman Jumpsuit,0
+10,6,Pascha,4,Crocodile,1,Ra-Ra Skirt & Top,1
+10,6,Suzy,6,Swan,4,Granny Patsy'd Patchwork Skirt & Top,0
+10,7,Ailsa,5,Black & White Dress,5,Unconventional Dress,0
+10,7,Alex,1,Frilly Dress,2,Inside-out Dress,0
+10,7,Luke,3,Floor-length Dress,3,Pageant Gown,0
+10,7,Marcus,4,Muscle Man Torso,6,Rockstar Skater Chick Dress,0
+10,7,Pascha,2,S&M Dress,1,Vintage Gown,1
+10,7,Suzy,6,Brown & Black,4,Colourful Jigsaw Dress,0
+10,8,Ailsa,2,Lounging Cow Girl,1,Shania Twain Leopard Print Coat,0
+10,8,Alex,3,Red and Brown Dressing Gown,2,Orville Peck Canadian Tuxedo,0
+10,8,Luke,1,Keyhole Two-piece,5,Lady Gaga Human Motorbike Outfit,1
+10,8,Pascha,4,Bikini with see-through shorts,3,Beyonce Mirror Bodysuit,0
+10,8,Suzy,5,Green Black & White Two-piece,4,Lady Gaga Opera Coat,0
+10,9,Ailsa,3,Halterneck Top with Woven Back,3,Box Tweed Waistcoat & Organza Skirt,0
+10,9,Luke,2,Black & White Dress,1,Little Black Dress,0
+10,9,Pascha,1,Pastel Dress,2,1930s Coco Dress,1
+10,9,Suzy,4,Game of Thrones Fan Dress,4,Monochrome Dress,0
+10,10,Ailsa,2,Bunting top and skirt,3,'Scotland with a Twist' Two-Piece,0
+10,10,Luke,1,Pastel Napkin Dress,2,Monochrome Masc/Femme Gown,0
+10,10,Pascha,3,Glittery Silver Dress,1,Hot Pink Ballgown,0

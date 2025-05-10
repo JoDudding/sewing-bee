@@ -1,0 +1,253 @@
+series,episode,challenge_type,challenge_name
+1,1,Pattern challenge,A-Line skirt
+1,1,Transformation challenge,Neckline
+1,1,Made-to-measure,Casual dress
+1,2,Pattern challenge,Men's trousers
+1,2,Transformation challenge,Patch pockets
+1,2,Made-to-measure,Silk/satin blouse
+1,3,Pattern challenge,Child's dress
+1,3,Transformation challenge,Dart/pleat dress
+1,3,Made-to-measure,Jackets
+1,4,Pattern challenge,Man's shirt
+1,4,Transformation challenge,An evening bag
+1,4,Made-to-measure,Evening dress
+2,1,Pattern challenge,Cotton Sleeve-less Top
+2,1,Transformation challenge,Wool Maxi Skirt
+2,1,Made-to-measure,Silk Nightgown
+2,2,Pattern challenge,Box Pleated Skirt
+2,2,Transformation challenge,Two Men's Shirts
+2,2,Made-to-measure,Men's Pyjamas
+2,3,Pattern challenge,Leggings
+2,3,Transformation challenge,Men's T-shirt
+2,3,Made-to-measure,Stretch Wrap Dress
+2,4,Pattern challenge,Children s Dungarees
+2,4,Transformation challenge,"Sweatshirt, Track Suit Bottoms and Pillowcase"
+2,4,Made-to-measure,Prom Dress
+2,5,Pattern challenge,Nylon Anorak
+2,5,Transformation challenge,Blouse with Leather
+2,5,Made-to-measure,Velvet Trousers
+2,6,Pattern challenge,1930s Silk blouse
+2,6,Transformation challenge,Man's suit
+2,6,Made-to-measure,Historic/Vintage coat
+2,7,Pattern challenge,No Pattern Dress
+2,7,Transformation challenge,Adding Sleeves to a Dress
+2,7,Made-to-measure,Copy of their own Garment
+2,8,Pattern challenge,Hand-Sewn Man's Tie
+2,8,Transformation challenge,Wedding Dress to Child's Dress
+2,8,Made-to-measure,Couture Gown
+3,1,Pattern challenge,Women's Cotton Trousers
+3,1,Transformation challenge,Denim Shirt
+3,1,Made-to-measure,Summer Dress
+3,2,Pattern challenge,Tailored Child's Waistcoat
+3,2,Transformation challenge,T-shirt & Dress
+3,2,Made-to-measure,Children's 3D Costume
+3,3,Pattern challenge,The Walk-away Dress
+3,3,Transformation challenge,Vintage Curtains
+3,3,Made-to-measure,Sheer Blouse
+3,4,Pattern challenge,Boned Corset
+3,4,Transformation challenge,Power Suit
+3,4,Made-to-measure,Traditional Kilt
+3,5,Pattern challenge,Lace Pencil Skirt
+3,5,Transformation challenge,Neoprene Wetsuit
+3,5,Made-to-measure,Woman's Leather Jacket
+3,6,Pattern challenge,Japanese Pattern
+3,6,Transformation challenge,Delphos Column Dress
+3,6,Made-to-measure,Avant-garde Dress
+4,1,Pattern challenge,Women's Top
+4,1,Transformation challenge,Maternity Dress
+4,1,Made-to-measure,Skirt
+4,2,Pattern challenge,Babygrow
+4,2,Transformation challenge,Bridesmaid Dress
+4,2,Made-to-measure,Cape
+4,3,Pattern challenge,Lace Bra
+4,3,Transformation challenge,Scarves
+4,3,Made-to-measure,Dressing Robe
+4,4,Pattern challenge,Qipao Brocade Top
+4,4,Transformation challenge,Sari
+4,4,Made-to-measure,West African Dress
+4,5,Pattern challenge,Colour Block Shift Dress
+4,5,Transformation challenge,PVC Raincoat
+4,5,Made-to-measure,Tailored Jacket
+4,6,Pattern challenge,Men's Cycle Shirt
+4,6,Transformation challenge,Ski Suit
+4,6,Made-to-measure,Yoga Outfit
+4,7,Pattern challenge,Yoke Drape Skirt
+4,7,Transformation challenge,Child's Duvet
+4,7,Made-to-measure,Bespoke Daydress
+4,8,Pattern challenge,Men's Dress Shirt
+4,8,Transformation challenge,Dinner Suit
+4,8,Made-to-measure,Evening Gown
+5,1,Pattern challenge,Wiggle Dress
+5,1,Transformation challenge,Denim
+5,1,Made-to-measure,Cotton Jumpsuit
+5,2,Pattern challenge,Child's Hoodie
+5,2,Transformation challenge,Fake Fur
+5,2,Made-to-measure,Child's Dance Outfit
+5,3,Pattern challenge,Flared Jeans
+5,3,Transformation challenge,Tartan Garments
+5,3,Made-to-measure,Maxi Dress
+5,4,Pattern challenge,Swimming Costume
+5,4,Transformation challenge,Tent
+5,4,Made-to-measure,Tracksuit
+5,5,Pattern challenge,Pussy Bow Blouse
+5,5,Transformation challenge,Offcuts From Last Four Weeks
+5,5,Made-to-measure,Day Dress
+5,6,Pattern challenge,Linen Worker's Jacket
+5,6,Transformation challenge,Deckchair and Parasol
+5,6,Made-to-measure,British Woollen Coat
+5,7,Pattern challenge,Indian Dhoti Pants
+5,7,Transformation challenge,Dashiki
+5,7,Made-to-measure,Origami Top
+5,8,Pattern challenge,Double Breasted Waistcoat
+5,8,Transformation challenge,Net Curtains
+5,8,Made-to-measure,Strapless Evening Gown
+6,1,Pattern challenge,Wrap Skirt
+6,1,Transformation challenge,Men's Office Shirt
+6,1,Made-to-measure,Tea Dress
+6,2,Pattern challenge,Palazzo Pants
+6,2,Transformation challenge,Towels
+6,2,Made-to-measure,Summer Holiday Shirt
+6,3,Pattern challenge,Child's Smocked Dress
+6,3,Transformation challenge,Sleeping Bag
+6,3,Made-to-measure,Dungarees
+6,4,Pattern challenge,Rugby Shirt
+6,4,Transformation challenge,Cagoule
+6,4,Made-to-measure,Tennis Outfit
+6,5,Pattern challenge,Boned Basque
+6,5,Transformation challenge,Nightie and Pajamas
+6,5,Made-to-measure,Sleep Set
+6,6,Pattern challenge,Men's Bomber Jacket
+6,6,Transformation challenge,Laundry Bags
+6,6,Made-to-measure,Winter Dress
+6,7,Pattern challenge,Power Jacket
+6,7,Transformation challenge,High-Vis Safety Wear
+6,7,Made-to-measure,80's Cocktail Dress
+6,8,Pattern challenge,Terno Blouse
+6,8,Transformation challenge,Provencal Tablecloth
+6,8,Made-to-measure,Flamenco Skirt
+6,9,Pattern challenge,Pleated Halterneck Dress
+6,9,Transformation challenge,Sci-Fi 'Scrap' and Garments
+6,9,Made-to-measure,Flapper Dress
+6,10,Pattern challenge,Boy's Kilt
+6,10,Transformation challenge,Swimsuit and Prom Dress
+6,10,Made-to-measure,Evening Gown
+7,1,Pattern challenge,Shell Top
+7,1,Transformation challenge,T-Shirts
+7,1,Made-to-measure,Women's Buffet Dress
+7,2,Pattern challenge,Paperbag Shorts
+7,2,Transformation challenge,Men's Swimming Gear
+7,2,Made-to-measure,Button Down Sun Dress
+7,3,Pattern challenge,Baker's Boy Hats
+7,3,Transformation challenge,Men's Suit Jackets
+7,3,Made-to-measure,Man's Utility Jacket
+7,4,Pattern challenge,French Breton Top
+7,4,Transformation challenge,Sarong
+7,4,Made-to-measure,Frida Kahlo
+7,5,Pattern challenge,Romper Suit
+7,5,Transformation challenge,Under the Sea
+7,5,Made-to-measure,Raincoat
+7,6,Pattern challenge,Gentleman's Waistcoat
+7,6,Transformation challenge,Army Surplus
+7,6,Made-to-measure,Jeans Dress
+7,7,Pattern challenge,Men's Flannel Shirt
+7,7,Transformation challenge,Old Scarves
+7,7,Made-to-measure,Festive Winter Party Dress
+7,8,Pattern challenge,Baby from Dirty Dancing Dress
+7,8,Transformation challenge,Curtains to Children's Clothes
+7,8,Made-to-measure,1970s Dream Girls Dress
+7,9,Pattern challenge,Oxford Bags - Trousers
+7,9,Transformation challenge,Parachutes to Dresses
+7,9,Made-to-measure,Dior's New Look
+7,10,Pattern challenge,Little Girl's Bridesmaid Dress
+7,10,Transformation challenge,Homeware into Summer Festival Outfit
+7,10,Made-to-measure,Glamorous Off-the-shoulder Evening Gown
+8,1,Pattern challenge,Wool Mini Skirt
+8,1,Transformation challenge,Lounge Wear
+8,1,Made-to-measure,Wrap Dress
+8,2,Pattern challenge,High Top Trainers
+8,2,Transformation challenge,Netball Gear
+8,2,Made-to-measure,Sports Hero Inspired Jacket
+8,3,Pattern challenge,Shirred Dress
+8,3,Transformation challenge,Hammock
+8,3,Made-to-measure,Co-ord set
+8,4,Pattern challenge,Patchwork Jacket
+8,4,Transformation challenge,Coats
+8,4,Made-to-measure,Maxi Dress from Duvet Cover
+8,5,Pattern challenge,Sailor Costumes
+8,5,Transformation challenge,School Uniforms
+8,5,Made-to-measure,Halloween Costume
+8,6,Pattern challenge,Parka
+8,6,Transformation challenge,Denim into Country Music
+8,6,Made-to-measure,David Bowie Inspired
+8,7,Pattern challenge,Bra and Knicker Set
+8,7,Transformation challenge,Thermals into Going Out
+8,7,Made-to-measure,Mens Pyjama Set
+8,8,Pattern challenge,Sailor Trousers
+8,8,Transformation challenge,Mens shirts into 1930s Blouses
+8,8,Made-to-measure,Bias Cut Dress
+8,9,Pattern challenge,Kimono Dress
+8,9,Transformation challenge,Sashiko
+8,9,Made-to-measure,Origami
+8,10,Pattern challenge,Amorphous Dress
+8,10,Transformation challenge,Party Outfit made from scraps from earlier Sewing Bee challenges
+8,10,Made-to-measure,Party Jumpsuit
+9,1,Pattern challenge,Twist Top
+9,1,Transformation challenge,Corporate Uniform to Personality Garment
+9,1,Made-to-measure,Cut Out Dress
+9,2,Pattern challenge,Rucksack
+9,2,Transformation challenge,Windbreak to Rainwear
+9,2,Made-to-measure,Swimsuit
+9,3,Pattern challenge,Batakari
+9,3,Transformation challenge,Adire Fabric
+9,3,Made-to-measure,Boubou
+9,4,Pattern challenge,Zero Waste Trousers
+9,4,Transformation challenge,Tote Bag to Garment
+9,4,Made-to-measure,Crochet Blanket Outfit
+9,5,Pattern challenge,Modernist Skirt
+9,5,Transformation challenge,Painting into Dress
+9,5,Made-to-measure,Surrealist Dress
+9,6,Pattern challenge,Dragon Dressing Gown
+9,6,Transformation challenge,Denim Jacket
+9,6,Made-to-measure,Party Dress
+9,7,Pattern challenge,Cargo Pants
+9,7,Transformation challenge,90's Icon Fancy Dress Costume
+9,7,Made-to-measure,90's Supermodel Dress
+9,8,Pattern challenge,Breakfast at Tiffany's Dress
+9,8,Transformation challenge,Shower Curtains
+9,8,Made-to-measure,Smoking Jacket
+9,9,Pattern challenge,Military Trench Coat
+9,9,Transformation challenge,Cleaning Products
+9,9,Made-to-measure,Boilersuit
+9,10,Pattern challenge,Victorian Style Evening Dress
+9,10,Transformation challenge,Girl's Party Wear into Men's Red Carpet Glamour
+9,10,Made-to-measure,Met-Gala Two-In-One Dress
+10,1,Pattern challenge,A-line midiskirt
+10,1,Transformation challenge,T-shirt
+10,1,Made-to-measure,Casual Day Dress
+10,2,Pattern challenge,Half Zip Fleece
+10,2,Transformation challenge,Top and Bottom from Cricket Whites
+10,2,Made-to-measure,Olympic Kit
+10,3,Pattern challenge,Summer Blouse using Tablecloth
+10,3,Transformation challenge,Bag using Nautical Paraphernalia
+10,3,Made-to-measure,French Riviera
+10,4,Pattern challenge,Quilted Bag Using Scraps
+10,4,Transformation challenge,Textile Waste
+10,4,Made-to-measure,Repurpose Wedding Dress
+10,5,Pattern challenge,Nehru Jacket
+10,5,Transformation challenge,Calico and Madras cotton
+10,5,Made-to-measure,Sari Inspired Evening Wear
+10,6,Pattern challenge,child’s sequined bomber jacket
+10,6,Transformation challenge,animal-themed fancy dress for a toddler from beach towels
+10,6,Made-to-measure,Outfit from a childhood photo
+10,7,Pattern challenge,Pyjama Blouse
+10,7,Transformation challenge,Outfit from Shapewear and Lace
+10,7,Made-to-measure,Bustier Dress
+10,8,Pattern challenge,Tina Turner Fringed Dress
+10,8,Transformation challenge,Animal Print
+10,8,Made-to-measure,Stage Outfit
+10,9,Pattern challenge,Cristobal Balenciaga
+10,9,Transformation challenge,Jean Paul Gaultier Ties
+10,9,Made-to-measure,Coco Chanel Inspired
+10,10,Pattern challenge,Opera Gloves
+10,10,Transformation challenge,Party Paraphernalia
+10,10,Made-to-measure,Draped Outfit
