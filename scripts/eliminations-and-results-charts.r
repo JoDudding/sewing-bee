@@ -39,7 +39,7 @@ series_elim <- function(num) {
     geom_tile(colour = 'white') +
     geom_text(colour = 'white', lineheight = 1) +
     scale_x_discrete(position = 'top') +
-    scale_fill_manual(values = result_pal) +
+    scale_fill_manual(values = result_pal, na.value = gbsb_col$pale) +
     labs(
       x = NULL,
       y = NULL,
@@ -58,12 +58,3 @@ walk(
   levels(gbsb_eliminations$series),
   series_elim
 )
-
-
-
-gbsb_eliminations |> 
-  count(series, result) |> 
-  ggplot(aes(series, n)) +
-  geom_col() +
-  facet_wrap(~result, ncol = 1) +
-  theme_minimal()

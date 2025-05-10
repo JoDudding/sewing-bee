@@ -73,5 +73,28 @@ Inspired by the bakeoff recipes, here are 10 ways of looking at the same viewers
 
 ![](charts/viewership-scatter.png)
 
+## 🧵 Elimination and results charts
+
+![](charts/eliminations-series-1.png)
+
+![](charts/eliminations-series-2.png)
+
+![](charts/eliminations-series-3.png)
+
+![](charts/eliminations-series-4.png)
+
+![](charts/eliminations-series-5.png)
+
+![](charts/eliminations-series-6.png)
+
+![](charts/eliminations-series-7.png)
+
+![](charts/eliminations-series-8.png)
+
+![](charts/eliminations-series-9.png)
+
+![](charts/eliminations-series-10.png)
+
+
 ![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjl1NnQ1MWNiYnUwbHY0emExbHVsMDBqeDd6Yzc0Zmkxd3Z6bzNlcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qisTnBL5wNXZaSNecx/giphy.gif)
 
