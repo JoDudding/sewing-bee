@@ -34,6 +34,7 @@ gbsb_host_judge <- tibble(
 ) |> 
   unnest_longer(series) |> 
   spread(key = role, value = person) |> 
+  mutate(series = as.factor(series)) |> 
   print()
 
 #--- series overview ---
@@ -53,15 +54,23 @@ gbsb_overview <- gbsb_tables  |>
   html_table(fill = TRUE) |> 
   clean_names() |> 
   mutate(
+    series = as.factor(series),
     premiere = dmy(premiere),
     finale = dmy(finale)
   ) |> 
-  left_join(gbsb_host_judge, by = 'series') |> 
-  print()
+  left_join(gbsb_host_judge, by = 'series') 
 
 if(sum(is.na(gbsb_overview$host)) > 0) {
   cli_abort('Update the manual table of hosts and judges')
 }
+
+# check
+
+glimpse(gbsb_overview)
+
+gbsb_overview |> 
+  count(host, sort = TRUE) |> 
+  print()
 
 # save
 
@@ -103,58 +112,6 @@ gbsb_series_tables <- gbsb_series_wiki |>
   ungroup() |> 
   select(-wiki)
 
-#--- series sewers ---
-
-# function to get sewers for each series
-
-get_sewers <- function(num) {
-  
-  cli_alert_info('sewers for series {num}')
-  
-  gbsb_series_tables |> 
-    filter(table_type == 'sewers') |> 
-    select(-table_type) |> 
-    filter(series == num) |> 
-    unnest(table) |> 
-    gather(-series, -2, key = 'key', value = 'value') |> 
-    rename(sewer_fullname = 2) |> 
-    mutate(
-      across(2:4, ~str_remove(.x, '\\[.*\\]')),
-      key = str_to_lower(key),
-      key = if_else(
-        key %in% c('age', 'occupation', 'placement'),
-        key,
-        'residence'
-      )
-    )
-}
-
-# run function across series
-
-gbsb_sewers <- map_dfr(series, get_sewers) |> 
-  spread(key = key, value = value) 
-
-# check
-
-gbsb_sewers |> 
-  group_by(series) |> 
-  summarise(
-    n_sewers = n(),
-    n_with_age = sum(!is.na(age)),
-    n_with_occ = sum(!is.na(occupation)),
-    n_with_res = sum(!is.na(residence)),
-    n_with_place = sum(!is.na(placement))
-  ) |> 
-  print()
-
-# save
-
-gbsb_sewers |> 
-  saveRDS('data/gbsb-sewers.rds')
-
-gbsb_sewers |> 
-  write_csv('data/gbsb-sewers.csv')
-
 #--- series eliminations ---
 
 # function to get eliminations for each series
@@ -173,7 +130,7 @@ get_eliminations <- function(num) {
     transmute(
       series,
       sewer = Sewer,
-      episode = parse_number(episode),
+      episode = parse_number(episode) ,
       result = str_remove(result, '\\[.*\\]'),
       result = case_when(
         result %in% c('BG', 'WIN') ~ 'Garment of the week',
@@ -181,7 +138,7 @@ get_eliminations <- function(num) {
         str_sub(str_to_upper(result), 1, 3) == 'WIN' ~ 'Winner',
         str_sub(str_to_upper(result), 1, 3) == 'RUN' ~ 'Runner-up',
         result == 'WDR'~ 'Withdraw',
-        ! str_trim(result) == '' ~ result
+        ! str_trim(result) == '' ~ 'Through'
       )
     ) 
   
@@ -198,9 +155,17 @@ gbsb_eliminations <- gbsb_eliminations_all |>
   arrange(series, sewer, -episode) |> 
   filter(cumsum(!is.na(result)) > 0) |> 
   ungroup() |> 
-  arrange(series, sewer, episode)
+  arrange(series, sewer, episode) |> 
+  mutate(
+    result = factor(coalesce(result, 'Through'), levels = c(
+      'Winner', 'Runner-up', 'Garment of the week', 
+      'Through', 'Eliminated', 'Withdraw')
+    )
+  )
 
 # check
+
+glimpse(gbsb_eliminations)
 
 gbsb_eliminations |> 
   count(result) |> 
@@ -265,6 +230,8 @@ gbsb_ratings <- map_dfr(series, get_ratings) |>
   )
 
 # check
+
+glimpse(gbsb_ratings)
 
 gbsb_ratings |> 
   group_by(series) |> 
@@ -348,6 +315,8 @@ episode_results <- episode_tables |>
 
 # check
 
+glimpse(episode_results)
+
 episode_results |> 
   count(pattern_rank) |> 
   print()
@@ -386,10 +355,11 @@ challenge_names <- episode_tables |>
       str_replace('Alteration', 'Transformation'),
     challenge_name = str_remove(challenge_name, '\\)') |> 
       str_trim()
-  ) |> 
-  print()
+  )
 
 # check
+
+glimpse(challenge_names)
 
 challenge_names |> 
   count(challenge_type) |> 
@@ -407,10 +377,165 @@ challenge_names |>
 challenge_names |> 
   write_csv('data/gbsb-challenge-names')
 
+#--- series sewers ---
+
+# sewer names in the elimination table with their final placement
+
+elim_sewers <- gbsb_eliminations |> 
+  group_by(series, sewer) |> 
+  arrange(series, sewer, result) |> 
+  summarise(
+    max_ep = max(episode),
+    best_result = first(result)
+  ) |> 
+  ungroup() |> 
+  mutate(
+    best_result = case_when(
+      best_result %in% c('Winner', 'Runner-up') ~ best_result
+    )
+  ) |> 
+  arrange(series, -max_ep, best_result) |> 
+  group_by(series, max_ep, best_result) |> 
+  mutate(n_ep = n()) |> 
+  nest(sewers = sewer) |> 
+  group_by(series) |> 
+  mutate(
+    placement = coalesce(best_result, paste0(lag(cumsum(n_ep)) + 1, 'th')) |> 
+      fct_inorder()
+  ) |> 
+  unnest(sewers) |> 
+  ungroup() |> 
+  select(series, sewer, placement)
+
+# function to get sewers for each series
+
+get_sewers <- function(num) {
+  
+  cli_alert_info('sewers for series {num}')
+  
+  gbsb_series_tables |> 
+    filter(table_type == 'sewers') |> 
+    select(-table_type) |> 
+    filter(series == num) |> 
+    unnest(table) |> 
+    gather(-series, -2, key = 'key', value = 'value') |> 
+    rename(sewer_fullname = 2) |> 
+    mutate(
+      across(2:4, ~str_remove(.x, '\\[.*\\]')),
+      key = str_to_lower(key),
+      key = if_else(
+        key %in% c('age', 'occupation', 'placement'),
+        key,
+        'residence'
+      )
+    )
+}
+
+# run function across series
+
+gbsb_sewers <- map_dfr(series, get_sewers) |> 
+  spread(key = key, value = value) |> 
+  select(-placement) |> 
+  mutate(
+    series = as.factor(series),
+    age = as.integer(age)
+  ) |> 
+  # add the sewer short name
+  inner_join(
+    elim_sewers,
+    by = 'series',
+    relationship = "many-to-many"
+  ) |> 
+  filter(str_detect(sewer_fullname, glue('^{sewer}')))
+
+# check
+
+glimpse(gbsb_sewers)
+
+gbsb_sewers |> 
+  count(placement) |> 
+  print()
+
+gbsb_sewers |> 
+  group_by(series) |> 
+  summarise(
+    n_sewers = n(),
+    pct_with_age = mean(!is.na(age)),
+    pct_with_occ = mean(!is.na(occupation)),
+    pct_with_res = mean(!is.na(residence)),
+    pct_with_place = mean(!is.na(placement))
+  ) |> 
+  print()
+
+# save
+
+gbsb_sewers |> 
+  saveRDS('data/gbsb-sewers.rds')
+
+gbsb_sewers |> 
+  write_csv('data/gbsb-sewers.csv')
+
+
 #--- series episode themes ---
 
+# get level 3 headings from the series pages
+
+episode_themes_raw <- tibble(
+  series,
+  ep_theme = map(
+    gbsb_series_urls,
+    ~read_html(.x) |> 
+    html_elements('h3') |> 
+    html_text2()
+  )
+) |> 
+  unnest_longer(ep_theme)
+
+# clean it up
+
+episode_themes <- episode_themes_raw |> 
+  filter(str_detect(ep_theme, '^Episode')) |> 
+  group_by(series) |> 
+  mutate(
+    episode = row_number(),
+    theme = str_remove(ep_theme, '^.*: ') |> 
+      str_remove(' Week') |> 
+      str_remove(' - .*$') |> 
+      str_remove('\\[.*\\]') |> 
+      str_trim() |> 
+      str_replace('^Reduce, Reuse.*$', 'Reduce, Reuse, Recycle') |> 
+      str_replace('^Lingerie.*$', 'Lingerie and Sleepwear') |> 
+      str_replace('^Children.*$', "Children's Clothes") |> 
+      str_replace("^1980's$", '1980s') |> 
+      str_replace("^70s$", '1970s')
+      
+  ) |> 
+  ungroup() |> 
+  # remove if no theme
+  filter(
+    theme != ep_theme,
+    ! str_detect(str_to_lower(theme), 'final')
+  ) |> 
+  select(series, episode, theme) 
+
+# check
+
+glimpse(episode_themes)
+
+episode_themes |> 
+  count(theme, sort = TRUE) |> 
+  print()
+
+# save
+
+episode_themes |> 
+  saveRDS('data/gbsb-episode-theme.rds')
+
+episode_themes |> 
+  write_csv('data/gbsb-episode-theme')
 
 #--- tidytuesday submission ---
+
 # https://dslc-io.github.io/tidytuesdayR/articles/curating.html
 
 #tt_clean()

@@ -20,6 +20,7 @@
 - results ✓
 - challenge_names ✓
 - episodes ✓
+- episode themes ✓
 
 ## 🧵 New skills to be gained
 
