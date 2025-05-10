@@ -130,14 +130,15 @@ get_eliminations <- function(num) {
       series,
       sewer = Sewer,
       episode = parse_number(episode),
-      result = str_remove(result, "\\[.*\\]"),
+      result = str_remove(result, "\\[.*\\]") |> 
+        str_trim(),
       result = case_when(
         result %in% c("BG", "WIN") ~ "Garment of the week",
         result %in% c("OUT", "ELIM") ~ "Eliminated",
         str_sub(str_to_upper(result), 1, 3) == "WIN" ~ "Winner",
         str_sub(str_to_upper(result), 1, 3) == "RUN" ~ "Runner-up",
         result == "WDR" ~ "Withdraw",
-        !str_trim(result) == "" ~ "Through"
+        TRUE ~ result
       )
     )
 }
@@ -145,6 +146,13 @@ get_eliminations <- function(num) {
 # run function across series
 
 gbsb_eliminations_all <- map_dfr(series, get_eliminations)
+
+# check
+
+gbsb_eliminations_all |> 
+  count(series, result = if_else(result == '', 'none', result)) |> 
+  spread(key = result, value = n) |> 
+  print()
 
 # remove episodes after elimination
 
@@ -155,7 +163,7 @@ gbsb_eliminations <- gbsb_eliminations_all |>
   ungroup() |>
   arrange(series, sewer, episode) |>
   mutate(
-    result = factor(coalesce(result, "Through"), levels = c(
+    result = factor(result, levels = c(
       "Winner", "Runner-up", "Garment of the week",
       "Through", "Eliminated", "Withdraw"
     ))

@@ -64,7 +64,7 @@ base_size <- 10
 theme_set(
   theme_minimal(base_size = base_size) +
     theme(
-      text = element_text(family = "franklin", colour = gbsb_col$dark),
+      text = element_text(family = "franklin", colour = gbsb_col$dark, lineheight = 1.2),
       plot.title = element_text(
         family = "franklin", size = rel(1.5), face = "bold",
         lineheight = 1.2

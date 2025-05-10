@@ -2,7 +2,7 @@ series,episode,sewer,pattern_rank,transformation_name,transformation_rank,made_t
 1,1,Ann,3,—,NA,Crepe wool shift dress,0
 1,1,Jane,4,—,NA,—,0
 1,1,Lauren,2,—,NA,—,0
-1,1,Mark,7,V-neck,NA,Cotton colour block shift dress,0
+1,1,Mark,7,V-neck,NA,Cotton colour block shift dress,1
 1,1,Michelle,5,Square Neckline with lace panel insertion,NA,Reversible silk wrap dress,0
 1,1,Sandra,1,Facing scallop neckline,NA,Tailored denim shirt dress,0
 1,1,Stuart,8,—,NA,Empire-line dress with pleated skirt,0
@@ -11,9 +11,9 @@ series,episode,sewer,pattern_rank,transformation_name,transformation_rank,made_t
 1,2,Lauren,2,Gathered floral pockets,NA,Silk peplum blouse,0
 1,2,Mark,6,Skull print pockets (angled),NA,18th century chemise,0
 1,2,Sandra,4,Square polka dot pockets with folded corner,NA,Frilly chiffon blouse,0
-1,2,Stuart,5,"Semi circle red ""tulip"" pockets",NA,Raw silk chinese blouse,0
+1,2,Stuart,5,"Semi circle red ""tulip"" pockets",NA,Raw silk chinese blouse,1
 1,2,Tilly,3,Semi circle polka dot pockets,NA,Shift blouse with red piping,0
-1,3,Ann,2,Fitted/tailored dress,NA,Buclé tweed edge to edge jacket,0
+1,3,Ann,2,Fitted/tailored dress,NA,Buclé tweed edge to edge jacket,1
 1,3,Lauren,1,Dress with pleated skirt and orange belt,NA,Fitted tweed hacking jacket,0
 1,3,Sandra,3,Fitted dress with red piping,NA,Softly tailored wrap collar jacket,0
 1,3,Stuart,4,Side rippled dress,NA,Boiled wool alpine jacket,0
@@ -26,7 +26,7 @@ series,episode,sewer,pattern_rank,transformation_name,transformation_rank,made_t
 2,1,David,8,Short Skirt with 2 Godets,9,Semi-Fitted Empire-Line Nightgown,0
 2,1,Heather,1,Short Skirt with back Box Pleat,7,Lingerie Nightgown,0
 2,1,Jenni,4,Dungarees,5,1940's Style Floor Length Nightgown,0
-2,1,Julie,5,Short Skirt with a Godet and Pocket,8,Bias Cut Nightgown,0
+2,1,Julie,5,Short Skirt with a Godet and Pocket,8,Bias Cut Nightgown,1
 2,1,Lynda,6,Short Skirt with a Godet and Pocket,4,Empire-Line Nightgown,0
 2,1,Simon,9,Short Skirt with jetted Pocket and Godet,3,Shot Silk Dupion Nightdress,0
 2,1,Tamara,3,Short Skirt with Gathered Ruffle,1,Empire-Line Babydoll Nightgown,0
@@ -36,11 +36,11 @@ series,episode,sewer,pattern_rank,transformation_name,transformation_rank,made_t
 2,2,Heather,1,Women's Shirt with ruffle frill,8,Striped Pyjamas,0
 2,2,Jenni,7,Skirt,5,Classic Pyjamas,0
 2,2,Julie,9,Women's Shirt,6,Striped Cotton Pyjamas,0
-2,2,Lynda,5,Little girl's dress,4,Candy Striped Pyjamas,0
+2,2,Lynda,5,Little girl's dress,4,Candy Striped Pyjamas,1
 2,2,Simon,8,Shirt Dress,9,"Brushed Cotton, Checked Pyjamas",0
 2,2,Tamara,2,Skirt,1,Newsprint Pyjamas,0
 2,3,Cerina,3,Child's Dancing Leotard,1,Simple Wrap Dress,0
-2,3,Chinelo,5,Asymmetric Maxi Dress,2,Stretch Velvet Dress,0
+2,3,Chinelo,5,Asymmetric Maxi Dress,2,Stretch Velvet Dress,1
 2,3,David,2,Zip V-neck Top,8,Faux Wrap Dress,0
 2,3,Heather,7,Halter Neck Top with Plunge Backline,3,Sleeveless Classic Wrap Dress,0
 2,3,Jenni,8,Plated back Top,4,Retro Wrap Dress,0
@@ -52,23 +52,23 @@ series,episode,sewer,pattern_rank,transformation_name,transformation_rank,made_t
 2,4,David,1,Ladybird,5,Satin Prom Dress,0
 2,4,Heather,4,Autumnal Flower Fairy meet Princess,6,Shot Silk Prom Dress,0
 2,4,Jenni,2,Dinosaur,3,Vintage Inspired Prom Dress,0
-2,4,Lynda,6,Queen of Hearts,2,Mini Prom Dress,0
+2,4,Lynda,6,Queen of Hearts,2,Mini Prom Dress,1
 2,4,Tamara,5,Superhero,4,Neoprene Prom Dress,0
 2,5,Chinelo,4,Leather frill,2,Peplum Trousers,0
 2,5,David,3,Wrap front with plunging neckline,6,Chino-style Trousers,0
 2,5,Heather,5,Blouse with plunging neckline,5,Classic Slim Fitting Trousers,0
 2,5,Jenni,2,Backless Leather top,3,High Waisted Trousers,0
 2,5,Lynda,6,Leather side panels with asweetheart neckline,1,Classic Straight-legged Trousers,0
-2,5,Tamara,1,Leather frill collar,4,Capri Pants,0
+2,5,Tamara,1,Leather frill collar,4,Capri Pants,1
 2,6,Chinelo,2,Pencil Dress,1,1940s Coat,0
 2,6,David,5,Halterneck Top,4,1940s Police Coat,0
 2,6,Heather,1,Boob Tube,3,1953 Swing Coat,0
-2,6,Lynda,4,Pinafore dress,2,1950s Wool Flannel Coat,0
+2,6,Lynda,4,Pinafore dress,2,1950s Wool Flannel Coat,1
 2,6,Tamara,3,Backwards Tuxedo Top,5,1967 Coat,0
 2,7,Chinelo,3,Tucked Sleeve,1,Party Dress,0
 2,7,Heather,2,Gathered Puff Sleeve,2,Shift Dress,0
 2,7,Lynda,1,Classic Set-in Sleeve,4,Wrap Dress,0
-2,7,Tamara,4,Gathered Puff Sleeve,3,Yoga Outfit,0
+2,7,Tamara,4,Gathered Puff Sleeve,3,Yoga Outfit,1
 2,8,Chinelo,3,Classic Bridesmaid Dress,1,Hourglass Gown,0
 2,8,Heather,2,Classic Bridesmaid Dress,2,Horse Chain Gown,0
 2,8,Tamara,1,Classic Bridesmaid Dress,3,Slashed Couture Dress,0
@@ -79,7 +79,7 @@ series,episode,sewer,pattern_rank,transformation_name,transformation_rank,made_t
 3,1,Lorna,2,Child's Skirt,2,Long-Sleeved Princess-Seamed Dress,0
 3,1,Matt,6,Skirt,5,Sleeveless Dress,0
 3,1,Neela,3,Skirt,9,Princess-Seamed Dress,0
-3,1,Neil,1,Skirt,8,Princess-Seamed Dress,0
+3,1,Neil,1,Skirt,8,Princess-Seamed Dress,1
 3,1,Paul,9,Dress,4,A-Line Dress,0
 3,1,Ryan,8,Dress,7,50s Tea Dress,0
 3,2,Alex,6,Harem Trousers,4,Cupcake Dress,0
@@ -89,11 +89,11 @@ series,episode,sewer,pattern_rank,transformation_name,transformation_rank,made_t
 3,2,Matt,5,Pair of Shorts,8,Peacock Dress,0
 3,2,Neela,9,Asymmetric Dress,7,Bookworm,0
 3,2,Neil,3,Boxing Shorts & Gloves,1,Smartphone,0
-3,2,Paul,4,Shirred Waisted Skirt,6,Ballerina Elephant,0
+3,2,Paul,4,Shirred Waisted Skirt,6,Ballerina Elephant,1
 3,2,Ryan,1,Shirred Dress,3,Urban Fox,0
 3,3,Amanda,8,Prom Skirt,3,Pussy Bow Blouse,0
 3,3,Deborah,7,Panelled Wrap Skirt,6,Semi-Fitted Bow Blouse,0
-3,3,Lorna,5,Skirt with Big Bow,1,Sweetheart Blouse,0
+3,3,Lorna,5,Skirt with Big Bow,1,Sweetheart Blouse,1
 3,3,Matt,2,Girl's Dress,5,Sleeveless Fitted Blouse,0
 3,3,Neela,6,Top,8,Collared Blouse,0
 3,3,Neil,3,Ladies Evening Dress,2,Draped Blouse,0
@@ -103,13 +103,13 @@ series,episode,sewer,pattern_rank,transformation_name,transformation_rank,made_t
 3,4,Deborah,4,Jacket,5,Wool Traditional Kilt,0
 3,4,Lorna,5,Maternity Top,4,Traditional Kilt (in a Gunn Ancient Tartan),0
 3,4,Matt,2,Dress,3,Cotton Female Kilt,0
-3,4,Neil,1,Cocktail Dress,1,Traditional Kilt (in a Culloden Tartan),0
+3,4,Neil,1,Cocktail Dress,1,Traditional Kilt (in a Culloden Tartan),1
 3,4,Paul,3,Dress,6,Glittered Denim Kilt,0
 3,4,Ryan,6,All-in-one Dress,2,Contemporary Kilt,0
 3,5,Deborah,3,Dress,1,Collarless Jacket,0
 3,5,Lorna,2,Dress,2,Cropped Jacket,0
 3,5,Matt,1,Lace Skirt Dress,4,Fitted Biker Jacket,0
-3,5,Neil,4,Halter Neck Dress,3,Asymmetrical jacket,0
+3,5,Neil,4,Halter Neck Dress,3,Asymmetrical jacket,1
 3,5,Paul,5,Dress,5,Fitted Jacket,0
 3,6,Lorna,2,'Lampshade' Dress,1,Fitted Strapless Minidress with Long Overskirt,0
 3,6,Matt,3,Halter Neck Dress,2,Couture-inspired Geometric Dress,0
