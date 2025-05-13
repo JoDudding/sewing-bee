@@ -25,7 +25,8 @@
 ## 🧵 New skills to be gained
 
 - editing Wikipedia pages (to make the table formats consistent over the seasons) ✓
-- using {rvest} package to extract data from web pages ✓
+- using [{rvest}](https://rvest.tidyverse.org/) package to extract data from web pages ✓
+- using [{eyedroppeR}](https://gradientdescending.com/select-colours-from-an-image-in-r-with-eyedropper/) package to extract a colour palette from a picture ✓
 - using a badge in the `readme.md` file ([shields.io](https://shields.io/badges)) ✓
 - contributing a dataset to [TidyTuesday](https://github.com/rfordatascience/tidytuesday) 
   using {[tidytuesdayR](https://dslc-io.github.io/tidytuesdayR/articles/curating.html)}
