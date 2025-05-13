@@ -27,6 +27,12 @@ gbsb_episodes <- readRDS("data/gbsb-episodes.rds")
 num_episodes <- 8
 predict_after_ep <- 4
 
+cli::cli_text("Parameters:")
+cli::cli_dl(list(
+  min_num_episodes = num_episodes,
+  predict_after_ep = predict_after_ep
+))
+
 #--- included sewers and target ---
 
 included_sewers <- gbsb_eliminations |>
@@ -38,6 +44,8 @@ included_sewers <- gbsb_eliminations |>
   summarise(
     target = max(coalesce(result, "x") == "Winner")
   )
+
+log_obj("included_sewers")
 
 included_sewers |>
   group_by(series) |>
@@ -63,6 +71,8 @@ in_running <- gbsb_episodes |>
   ) |>
   ungroup() |>
   inner_join(included_sewers, by = c("series", "sewer"))
+
+log_obj("in_running")
 
 #--- pattern challenge ---
 

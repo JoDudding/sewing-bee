@@ -11,6 +11,8 @@ source("scripts/_setup.r")
 
 #--- hosts and judges (manual) ---
 
+cli::cli_h2("hosts and judges")
+
 gbsb_host_judge <- tibble(
   person = c(
     "Claudia Winkleman",
@@ -34,10 +36,13 @@ gbsb_host_judge <- tibble(
 ) |>
   unnest_longer(series) |>
   spread(key = role, value = person) |>
-  mutate(series = as.factor(series)) |>
-  print()
+  mutate(series = as.factor(series))
+
+log_obj("gbsb_host_judge")
 
 #--- series overview ---
+
+cli::cli_h2("series overview")
 
 gbsb_url <- "https://en.wikipedia.org/wiki/The_Great_British_Sewing_Bee"
 
@@ -64,6 +69,8 @@ if (sum(is.na(gbsb_overview$host)) > 0) {
   cli_abort("Update the manual table of hosts and judges")
 }
 
+log_obj("gbsb_overview")
+
 # check
 
 glimpse(gbsb_overview)
@@ -74,13 +81,11 @@ gbsb_overview |>
 
 # save
 
-gbsb_overview |>
-  saveRDS("data/gbsb-overview.rds")
-
-gbsb_overview |>
-  write_csv("data/gbsb-overview.csv")
+save_rds_csv("gbsb_overview")
 
 #--- get information from series pages ---
+
+cli::cli_h2("series pages")
 
 series <- gbsb_overview$series
 
@@ -90,6 +95,8 @@ gbsb_series_wiki <- tibble(
   series = series,
   wiki = map(gbsb_series_urls, read_html)
 )
+
+log_obj("gbsb_series_wiki")
 
 gbsb_series_tables <- gbsb_series_wiki |>
   group_by(series) |>
@@ -112,7 +119,11 @@ gbsb_series_tables <- gbsb_series_wiki |>
   ungroup() |>
   select(-wiki)
 
+log_obj("gbsb_series_tables")
+
 #--- series eliminations ---
+
+cli::cli_h2("series eliminations")
 
 # function to get eliminations for each series
 
@@ -130,7 +141,7 @@ get_eliminations <- function(num) {
       series,
       sewer = Sewer,
       episode = parse_number(episode),
-      result = str_remove(result, "\\[.*\\]") |> 
+      result = str_remove(result, "\\[.*\\]") |>
         str_trim(),
       result = case_when(
         result %in% c("BG", "WIN") ~ "Garment of the week",
@@ -146,11 +157,13 @@ get_eliminations <- function(num) {
 
 gbsb_eliminations_all <- map_dfr(series, get_eliminations)
 
+log_obj("gbsb_eliminations_all")
+
 # check
 
-gbsb_eliminations_all |> 
-  count(series, result) |> 
-  spread(key = result, value = n) |> 
+gbsb_eliminations_all |>
+  count(series, result) |>
+  spread(key = result, value = n) |>
   print()
 
 # remove episodes after elimination
@@ -162,20 +175,22 @@ gbsb_eliminations <- gbsb_eliminations_all |>
   ungroup() |>
   arrange(series, sewer, episode) |>
   mutate(
-    result = coalesce(result, "Through") |> 
+    result = coalesce(result, "Through") |>
       factor(levels = c(
         "Winner", "Runner-up", "Garment of the week",
         "Through", "Eliminated", "Withdraw"
       ))
   )
 
+log_obj("gbsb_eliminations")
+
 # check
 
 glimpse(gbsb_eliminations)
 
-gbsb_eliminations |> 
-  count(series, result) |> 
-  spread(key = result, value = n) |> 
+gbsb_eliminations |>
+  count(series, result) |>
+  spread(key = result, value = n) |>
   print()
 
 gbsb_eliminations |>
@@ -187,13 +202,11 @@ gbsb_eliminations |>
 
 # save
 
-gbsb_eliminations |>
-  saveRDS("data/gbsb-eliminations.rds")
-
-gbsb_eliminations |>
-  write_csv("data/gbsb-eliminations.csv")
+save_rds_csv("gbsb_eliminations")
 
 #--- series ratings and viewership ---
+
+cli::cli_h2("series atings and viewership")
 
 # function to get ratings for each series
 
@@ -234,6 +247,8 @@ gbsb_ratings <- map_dfr(series, get_ratings) |>
     weekly_ranking_bbc = as.integer(weekly_ranking_bbc)
   )
 
+log_obj("gbsb_ratings")
+
 # check
 
 glimpse(gbsb_ratings)
@@ -252,13 +267,11 @@ gbsb_ratings |>
 
 # save
 
-gbsb_ratings |>
-  saveRDS("data/gbsb-ratings.rds")
-
-gbsb_ratings |>
-  write_csv("data/gbsb-ratings.csv")
+save_rds_csv("gbsb_ratings")
 
 #--- series episodes ---
+
+cli::cli_h2("series episodes")
 
 # names to set before unnesting
 
@@ -293,6 +306,8 @@ episode_tables <- gbsb_series_tables |>
   ) |>
   ungroup()
 
+log_obj("episode_tables")
+
 # unnest episode table and tidy columns
 # add in garment of the week winner
 
@@ -320,6 +335,8 @@ episode_results <- episode_tables |>
   ) |>
   mutate(garmet_of_week_win = coalesce(garmet_of_week_win, 0))
 
+log_obj("episode_results")
+
 # check
 
 glimpse(episode_results)
@@ -346,6 +363,8 @@ episode_results |>
 
 #--- challenge names ---
 
+cli::cli_h2("challenge names")
+
 # unnest challenge names and clean
 
 challenge_names <- episode_tables |>
@@ -363,6 +382,8 @@ challenge_names <- episode_tables |>
     challenge_name = str_remove(challenge_name, "\\)") |>
       str_trim()
   )
+
+log_obj("challenge_names")
 
 # check
 
@@ -385,6 +406,8 @@ challenge_names |>
   write_csv("data/gbsb-challenge-names")
 
 #--- series sewers ---
+
+cli::cli_h2("series sewers")
 
 # sewer names in the elimination table with their final placement
 
@@ -413,6 +436,8 @@ elim_sewers <- gbsb_eliminations |>
   unnest(sewers) |>
   ungroup() |>
   select(series, sewer, placement)
+
+log_obj("elim_sewers")
 
 # function to get sewers for each series
 
@@ -454,6 +479,8 @@ gbsb_sewers <- map_dfr(series, get_sewers) |>
   ) |>
   filter(str_detect(sewer_fullname, glue("^{sewer}")))
 
+log_obj("gbsb_sewers")
+
 # check
 
 glimpse(gbsb_sewers)
@@ -475,17 +502,15 @@ gbsb_sewers |>
 
 # save
 
-gbsb_sewers |>
-  saveRDS("data/gbsb-sewers.rds")
-
-gbsb_sewers |>
-  write_csv("data/gbsb-sewers.csv")
+save_rds_csv("gbsb_sewers")
 
 #--- series episode themes ---
 
+cli::cli_h2("series episode themes")
+
 # get level 3 headings from the series pages
 
-episode_themes_raw <- tibble(
+gbsb_episode_theme_raw <- tibble(
   series,
   ep_theme = map(
     gbsb_series_urls,
@@ -496,9 +521,11 @@ episode_themes_raw <- tibble(
 ) |>
   unnest_longer(ep_theme)
 
+log_obj("gbsb_episode_theme_raw")
+
 # clean it up
 
-episode_themes <- episode_themes_raw |>
+gbsb_episode_theme <- gbsb_episode_theme_raw |>
   filter(str_detect(ep_theme, "^Episode")) |>
   group_by(series) |>
   mutate(
@@ -522,21 +549,19 @@ episode_themes <- episode_themes_raw |>
   ) |>
   select(series, episode, theme)
 
+log_obj("gbsb_episode_theme")
+
 # check
 
-glimpse(episode_themes)
+glimpse(gbsb_episode_theme)
 
-episode_themes |>
+gbsb_episode_theme |>
   count(theme, sort = TRUE) |>
   print()
 
 # save
 
-episode_themes |>
-  saveRDS("data/gbsb-episode-theme.rds")
-
-episode_themes |>
-  write_csv("data/gbsb-episode-theme")
+save_rds_csv("gbsb_episode_theme")
 
 #--- tidytuesday submission ---
 

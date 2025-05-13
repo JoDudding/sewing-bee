@@ -18,9 +18,9 @@ library(scales)
 
 #--- extract a palette from the picture manually ---
 
-eyedropper(n = 5, img_path = "assets/sewingbee.jpg", label = "gbsb_palette_man")
+# eyedropper(n = 5, img_path = "assets/sewingbee.jpg", label = "gbsb_palette_man")
 
-gbsb_red <-  "#aa1111"
+gbsb_red <- "#aa1111"
 gbsb_blue <- "#1e547b"
 gbsb_dark <- "#2d2522"
 gbsb_pale <- "#e8dfce"
@@ -30,7 +30,7 @@ show_col(c(gbsb_red, gbsb_blue, gbsb_dark, gbsb_pale, gbsb_grey))
 
 #--- extract a palette from the picture automatically ---
 
-extract_pal(n = 15, img_path = "assets/sewingbee.jpg", label = "gbsb_palette")
+# extract_pal(n = 15, img_path = "assets/sewingbee.jpg", label = "gbsb_palette")
 
 #--- copy the palette from the console ---
 
@@ -47,14 +47,21 @@ gbsb_palette |>
 
 #--- save palette ---
 
-gbsb_palette |>
-  saveRDS("data/gbsb_palette.rds")
-
-list(
+gbsb_colours <- list(
   red = gbsb_red,
   blue = gbsb_blue,
   dark = gbsb_dark,
   pale = gbsb_pale,
-  grey = gbsb_grey
-) |>
+  grey = gbsb_grey,
+  palette = gbsb_palette
+)
+
+cli_text("{.strong gbsb_colours} contains:")
+
+names(gbsb_colours) |>
+  cli_li()
+
+gbsb_colours |>
   saveRDS("data/gbsb_colours.rds")
+
+cli::cli_alert_info("data/gbsb_colours.rds created")
