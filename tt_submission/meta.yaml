@@ -1,0 +1,18 @@
+title: "sewing-bee"
+article:
+  title: "The Great British Sewing Bee on BBC"
+  url: "https://www.bbc.co.uk/programmes/b03myqj2"
+data_source:
+  title: "The Great British Sewing Bee on Wikipedia"
+  url: "https://en.wikipedia.org/wiki/The_Great_British_Sewing_Bee"
+images:
+# Please include at least one image, and up to three images
+- file: "sewingbee.png"
+  alt: >
+    Cotton reel with Great British Sewing Bee logo on top
+- file: "eliminations-series-8.png"
+  alt: >
+    Elimination/results table for series 8
+credit:
+  post: "Jo Dudding"
+  github: "@jodudding"

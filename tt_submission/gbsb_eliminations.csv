@@ -1,0 +1,596 @@
+series,sewer,episode,result
+1,Ann,1,Through
+1,Ann,2,Through
+1,Ann,3,Garment of the week
+1,Ann,4,Winner
+1,Jane,1,Withdraw
+1,Lauren,1,Through
+1,Lauren,2,Through
+1,Lauren,3,Through
+1,Lauren,4,Runner-up
+1,Mark,1,Garment of the week
+1,Mark,2,Eliminated
+1,Michelle,1,Eliminated
+1,Sandra,1,Through
+1,Sandra,2,Through
+1,Sandra,3,Through
+1,Sandra,4,Runner-up
+1,Stuart,1,Through
+1,Stuart,2,Garment of the week
+1,Stuart,3,Eliminated
+1,Tilly,1,Through
+1,Tilly,2,Eliminated
+2,Cerina,1,Through
+2,Cerina,2,Through
+2,Cerina,3,Through
+2,Cerina,4,Eliminated
+2,Chinelo,1,Through
+2,Chinelo,2,Through
+2,Chinelo,3,Garment of the week
+2,Chinelo,4,Through
+2,Chinelo,5,Through
+2,Chinelo,6,Through
+2,Chinelo,7,Through
+2,Chinelo,8,Runner-up
+2,Cliff,1,Withdraw
+2,David,1,Through
+2,David,2,Through
+2,David,3,Through
+2,David,4,Through
+2,David,5,Through
+2,David,6,Eliminated
+2,Heather,1,Through
+2,Heather,2,Through
+2,Heather,3,Through
+2,Heather,4,Through
+2,Heather,5,Through
+2,Heather,6,Through
+2,Heather,7,Through
+2,Heather,8,Winner
+2,Jenni,1,Through
+2,Jenni,2,Through
+2,Jenni,3,Through
+2,Jenni,4,Through
+2,Jenni,5,Eliminated
+2,Julie,1,Garment of the week
+2,Julie,2,Through
+2,Julie,3,Eliminated
+2,Lynda,1,Through
+2,Lynda,2,Garment of the week
+2,Lynda,3,Through
+2,Lynda,4,Garment of the week
+2,Lynda,5,Through
+2,Lynda,6,Garment of the week
+2,Lynda,7,Eliminated
+2,Simon,1,Through
+2,Simon,2,Eliminated
+2,Tamara,1,Through
+2,Tamara,2,Through
+2,Tamara,3,Through
+2,Tamara,4,Through
+2,Tamara,5,Garment of the week
+2,Tamara,6,Through
+2,Tamara,7,Garment of the week
+2,Tamara,8,Runner-up
+3,Alex,1,Through
+3,Alex,2,Eliminated
+3,Amanda,1,Through
+3,Amanda,2,Through
+3,Amanda,3,Through
+3,Amanda,4,Eliminated
+3,Annie,1,Eliminated
+3,Deborah,1,Through
+3,Deborah,2,Through
+3,Deborah,3,Through
+3,Deborah,4,Through
+3,Deborah,5,Eliminated
+3,Lorna,1,Through
+3,Lorna,2,Through
+3,Lorna,3,Garment of the week
+3,Lorna,4,Through
+3,Lorna,5,Through
+3,Lorna,6,Runner-up
+3,Matt,1,Through
+3,Matt,2,Through
+3,Matt,3,Through
+3,Matt,4,Through
+3,Matt,5,Through
+3,Matt,6,Winner
+3,Neela,1,Through
+3,Neela,2,Through
+3,Neela,3,Eliminated
+3,Neil,1,Garment of the week
+3,Neil,2,Through
+3,Neil,3,Through
+3,Neil,4,Garment of the week
+3,Neil,5,Garment of the week
+3,Neil,6,Runner-up
+3,Paul,1,Through
+3,Paul,2,Garment of the week
+3,Paul,3,Through
+3,Paul,4,Through
+3,Paul,5,Eliminated
+3,Ryan,1,Through
+3,Ryan,2,Through
+3,Ryan,3,Through
+3,Ryan,4,Eliminated
+4,Angeline,1,Garment of the week
+4,Angeline,2,Garment of the week
+4,Angeline,3,Through
+4,Angeline,4,Through
+4,Angeline,5,Eliminated
+4,Charlotte,1,Through
+4,Charlotte,2,Through
+4,Charlotte,3,Garment of the week
+4,Charlotte,4,Through
+4,Charlotte,5,Through
+4,Charlotte,6,Through
+4,Charlotte,7,Garment of the week
+4,Charlotte,8,Winner
+4,Duncan,1,Eliminated
+4,Ghislaine,1,Through
+4,Ghislaine,2,Eliminated
+4,Jade,1,Through
+4,Jade,2,Through
+4,Jade,3,Through
+4,Jade,4,Through
+4,Jade,5,Garment of the week
+4,Jade,6,Garment of the week
+4,Jade,7,Through
+4,Jade,8,Runner-up
+4,Jamie,1,Through
+4,Jamie,2,Through
+4,Jamie,3,Eliminated
+4,Josh,1,Through
+4,Josh,2,Through
+4,Josh,3,Through
+4,Josh,4,Eliminated
+4,Joyce,1,Through
+4,Joyce,2,Through
+4,Joyce,3,Through
+4,Joyce,4,Garment of the week
+4,Joyce,5,Through
+4,Joyce,6,Through
+4,Joyce,7,Through
+4,Joyce,8,Runner-up
+4,Rumana,1,Through
+4,Rumana,2,Through
+4,Rumana,3,Through
+4,Rumana,4,Through
+4,Rumana,5,Through
+4,Rumana,6,Eliminated
+4,Tracey,1,Through
+4,Tracey,2,Through
+4,Tracey,3,Through
+4,Tracey,4,Through
+4,Tracey,5,Through
+4,Tracey,6,Through
+4,Tracey,7,Eliminated
+5,Alexei,1,Through
+5,Alexei,2,Through
+5,Alexei,3,Through
+5,Alexei,4,Eliminated
+5,Ben,1,Through
+5,Ben,2,Through
+5,Ben,3,Eliminated
+5,Janet,1,Through
+5,Janet,2,Through
+5,Janet,3,Through
+5,Janet,4,Through
+5,Janet,5,Through
+5,Janet,6,Eliminated
+5,Jen,1,Through
+5,Jen,2,Through
+5,Jen,3,Through
+5,Jen,4,Garment of the week
+5,Jen,5,Through
+5,Jen,6,Through
+5,Jen,7,Eliminated
+5,Juliet,1,Garment of the week
+5,Juliet,2,Through
+5,Juliet,3,Through
+5,Juliet,4,Through
+5,Juliet,5,Garment of the week
+5,Juliet,6,Through
+5,Juliet,7,Through
+5,Juliet,8,Winner
+5,Leah,1,Through
+5,Leah,2,Garment of the week
+5,Leah,3,Through
+5,Leah,4,Through
+5,Leah,5,Through
+5,Leah,6,Through
+5,Leah,7,Through
+5,Leah,8,Runner-up
+5,Mercedes,1,Through
+5,Mercedes,2,Through
+5,Mercedes,3,Garment of the week
+5,Mercedes,4,Through
+5,Mercedes,5,Eliminated
+5,Riccardo,1,Through
+5,Riccardo,2,Through
+5,Riccardo,3,Through
+5,Riccardo,4,Through
+5,Riccardo,5,Through
+5,Riccardo,6,Garment of the week
+5,Riccardo,7,Garment of the week
+5,Riccardo,8,Runner-up
+5,Sheila,1,Through
+5,Sheila,2,Eliminated
+5,Tom,1,Eliminated
+6,Alex,1,Through
+6,Alex,2,Eliminated
+6,Ali,1,Through
+6,Ali,2,Through
+6,Ali,3,Through
+6,Ali,4,Garment of the week
+6,Ali,5,Eliminated
+6,Angillia,1,Eliminated
+6,Clare,1,Through
+6,Clare,2,Through
+6,Clare,3,Through
+6,Clare,4,Through
+6,Clare,5,Through
+6,Clare,6,Through
+6,Clare,7,Through
+6,Clare,8,Through
+6,Clare,9,Garment of the week
+6,Clare,10,Winner
+6,Fiona,1,Through
+6,Fiona,2,Through
+6,Fiona,3,Eliminated
+6,Hazel,1,Through
+6,Hazel,2,Through
+6,Hazel,3,Through
+6,Hazel,4,Eliminated
+6,Liz,1,Through
+6,Liz,2,Through
+6,Liz,3,Through
+6,Liz,4,Through
+6,Liz,5,Through
+6,Liz,6,Through
+6,Liz,7,Through
+6,Liz,8,Through
+6,Liz,9,Eliminated
+6,Mark,1,Through
+6,Mark,2,Garment of the week
+6,Mark,3,Through
+6,Mark,4,Through
+6,Mark,5,Through
+6,Mark,6,Through
+6,Mark,7,Through
+6,Mark,8,Eliminated
+6,Matt,1,Garment of the week
+6,Matt,2,Through
+6,Matt,3,Through
+6,Matt,4,Through
+6,Matt,5,Through
+6,Matt,6,Garment of the week
+6,Matt,7,Through
+6,Matt,8,Through
+6,Matt,9,Through
+6,Matt,10,Runner-up
+6,Nicole,1,Through
+6,Nicole,2,Through
+6,Nicole,3,Through
+6,Nicole,4,Through
+6,Nicole,5,Through
+6,Nicole,6,Garment of the week
+6,Nicole,7,Garment of the week
+6,Nicole,8,Garment of the week
+6,Nicole,9,Through
+6,Nicole,10,Runner-up
+6,Peter,1,Through
+6,Peter,2,Through
+6,Peter,3,Through
+6,Peter,4,Through
+6,Peter,5,Through
+6,Peter,6,Eliminated
+6,Therese,1,Through
+6,Therese,2,Through
+6,Therese,3,Garment of the week
+6,Therese,4,Through
+6,Therese,5,Garment of the week
+6,Therese,6,Through
+6,Therese,7,Eliminated
+7,Adam,1,Through
+7,Adam,2,Through
+7,Adam,3,Through
+7,Adam,4,Through
+7,Adam,5,Eliminated
+7,Adeena,1,Through
+7,Adeena,2,Garment of the week
+7,Adeena,3,Through
+7,Adeena,4,Through
+7,Adeena,5,Through
+7,Adeena,6,Eliminated
+7,Andrew,1,Through
+7,Andrew,2,Through
+7,Andrew,3,Through
+7,Andrew,4,Through
+7,Andrew,5,Through
+7,Andrew,6,Through
+7,Andrew,7,Eliminated
+7,Cathryn,1,Through
+7,Cathryn,2,Through
+7,Cathryn,3,Through
+7,Cathryn,4,Eliminated
+7,Damien,1,Through
+7,Damien,2,Through
+7,Damien,3,Through
+7,Damien,4,Through
+7,Damien,5,Through
+7,Damien,6,Through
+7,Damien,7,Through
+7,Damien,8,Eliminated
+7,Farie,1,Through
+7,Farie,2,Through
+7,Farie,3,Garment of the week
+7,Farie,4,Garment of the week
+7,Farie,5,Garment of the week
+7,Farie,6,Through
+7,Farie,7,Through
+7,Farie,8,Through
+7,Farie,9,Eliminated
+7,Jean,1,Through
+7,Jean,2,Eliminated
+7,Julie,1,Eliminated
+7,Lawratu,1,Through
+7,Lawratu,2,Through
+7,Lawratu,3,Eliminated
+7,Raph,1,Garment of the week
+7,Raph,2,Through
+7,Raph,3,Through
+7,Raph,4,Through
+7,Raph,5,Through
+7,Raph,6,Garment of the week
+7,Raph,7,Garment of the week
+7,Raph,8,Through
+7,Raph,9,Through
+7,Raph,10,Runner-up
+7,Rebecca,1,Through
+7,Rebecca,2,Through
+7,Rebecca,3,Through
+7,Rebecca,4,Through
+7,Rebecca,5,Through
+7,Rebecca,6,Through
+7,Rebecca,7,Through
+7,Rebecca,8,Garment of the week
+7,Rebecca,9,Through
+7,Rebecca,10,Runner-up
+7,Serena,1,Through
+7,Serena,2,Through
+7,Serena,3,Through
+7,Serena,4,Through
+7,Serena,5,Through
+7,Serena,6,Through
+7,Serena,7,Through
+7,Serena,8,Through
+7,Serena,9,Garment of the week
+7,Serena,10,Winner
+8,Angela,1,Through
+8,Angela,2,Through
+8,Angela,3,Through
+8,Angela,4,Through
+8,Angela,5,Through
+8,Angela,6,Eliminated
+8,Annie,1,Through
+8,Annie,2,Through
+8,Annie,3,Through
+8,Annie,4,Through
+8,Annie,5,Through
+8,Annie,6,Garment of the week
+8,Annie,7,Through
+8,Annie,8,Garment of the week
+8,Annie,9,Garment of the week
+8,Annie,10,Winner
+8,Brogan,1,Through
+8,Brogan,2,Through
+8,Brogan,3,Through
+8,Brogan,4,Through
+8,Brogan,5,Through
+8,Brogan,6,Through
+8,Brogan,7,Through
+8,Brogan,8,Through
+8,Brogan,9,Through
+8,Brogan,10,Runner-up
+8,Chichi,1,Through
+8,Chichi,2,Eliminated
+8,Cristian,1,Through
+8,Cristian,2,Through
+8,Cristian,3,Through
+8,Cristian,4,Through
+8,Cristian,5,Through
+8,Cristian,6,Through
+8,Cristian,7,Through
+8,Cristian,8,Eliminated
+8,Debra,1,Garment of the week
+8,Debra,2,Through
+8,Debra,3,Garment of the week
+8,Debra,4,Through
+8,Debra,5,Garment of the week
+8,Debra,6,Through
+8,Debra,7,Through
+8,Debra,8,Through
+8,Debra,9,Through
+8,Debra,10,Runner-up
+8,Gill,1,Through
+8,Gill,2,Through
+8,Gill,3,Through
+8,Gill,4,Garment of the week
+8,Gill,5,Through
+8,Gill,6,Through
+8,Gill,7,Eliminated
+8,Man Yee,1,Through
+8,Man Yee,2,Through
+8,Man Yee,3,Through
+8,Man Yee,4,Through
+8,Man Yee,5,Through
+8,Man Yee,6,Through
+8,Man Yee,7,Garment of the week
+8,Man Yee,8,Through
+8,Man Yee,9,Through
+8,Man Yee,10,Runner-up
+8,Marni,1,Through
+8,Marni,2,Garment of the week
+8,Marni,3,Through
+8,Marni,4,Through
+8,Marni,5,Eliminated
+8,Mitch,1,Eliminated
+8,Richy,1,Through
+8,Richy,2,Through
+8,Richy,3,Eliminated
+8,Steve,1,Through
+8,Steve,2,Through
+8,Steve,3,Through
+8,Steve,4,Eliminated
+9,Asmaa,1,Through
+9,Asmaa,2,Through
+9,Asmaa,3,Through
+9,Asmaa,4,Through
+9,Asmaa,5,Through
+9,Asmaa,6,Through
+9,Asmaa,7,Garment of the week
+9,Asmaa,8,Garment of the week
+9,Asmaa,9,Garment of the week
+9,Asmaa,10,Winner
+9,Catherine,1,Eliminated
+9,Fauve,1,Through
+9,Fauve,2,Through
+9,Fauve,3,Through
+9,Fauve,4,Through
+9,Fauve,5,Garment of the week
+9,Fauve,6,Eliminated
+9,Gillie,1,Through
+9,Gillie,2,Eliminated
+9,Lauren,1,Through
+9,Lauren,2,Through
+9,Lauren,3,Through
+9,Lauren,4,Through
+9,Lauren,5,Through
+9,Lauren,6,Through
+9,Lauren,7,Through
+9,Lauren,8,Eliminated
+9,Lizzie,1,Through
+9,Lizzie,2,Through
+9,Lizzie,3,Garment of the week
+9,Lizzie,4,Through
+9,Lizzie,5,Through
+9,Lizzie,6,Through
+9,Lizzie,7,Eliminated
+9,Maria,1,Through
+9,Maria,2,Through
+9,Maria,3,Eliminated
+9,Matthew,1,Through
+9,Matthew,2,Through
+9,Matthew,3,Through
+9,Matthew,4,Eliminated
+9,Mia,1,Through
+9,Mia,2,Garment of the week
+9,Mia,3,Through
+9,Mia,4,Garment of the week
+9,Mia,5,Through
+9,Mia,6,Through
+9,Mia,7,Through
+9,Mia,8,Through
+9,Mia,9,Through
+9,Mia,10,Runner-up
+9,Tony R,1,Through
+9,Tony R,2,Through
+9,Tony R,3,Through
+9,Tony R,4,Through
+9,Tony R,5,Through
+9,Tony R,6,Garment of the week
+9,Tony R,7,Through
+9,Tony R,8,Through
+9,Tony R,9,Through
+9,Tony R,10,Runner-up
+9,Tony W,1,Garment of the week
+9,Tony W,2,Through
+9,Tony W,3,Through
+9,Tony W,4,Through
+9,Tony W,5,Eliminated
+9,Vicki,1,Through
+9,Vicki,2,Through
+9,Vicki,3,Through
+9,Vicki,4,Through
+9,Vicki,5,Through
+9,Vicki,6,Through
+9,Vicki,7,Through
+9,Vicki,8,Through
+9,Vicki,9,Eliminated
+10,Ailsa,1,Through
+10,Ailsa,2,Through
+10,Ailsa,3,Garment of the week
+10,Ailsa,4,Through
+10,Ailsa,5,Garment of the week
+10,Ailsa,6,Through
+10,Ailsa,7,Through
+10,Ailsa,8,Through
+10,Ailsa,9,Through
+10,Ailsa,10,Runner-up
+10,Alex,1,Through
+10,Alex,2,Through
+10,Alex,3,Through
+10,Alex,4,Garment of the week
+10,Alex,5,Through
+10,Alex,6,Through
+10,Alex,7,Through
+10,Alex,8,Eliminated
+10,Comfort,1,Through
+10,Comfort,2,Eliminated
+10,Don,1,Through
+10,Don,2,Through
+10,Don,3,Through
+10,Don,4,Eliminated
+10,Georgie,1,Through
+10,Georgie,2,Garment of the week
+10,Georgie,3,Through
+10,Georgie,4,Through
+10,Georgie,5,Through
+10,Georgie,6,Eliminated
+10,Janet,1,Through
+10,Janet,2,Through
+10,Janet,3,Eliminated
+10,Lauren,1,Through
+10,Lauren,2,Through
+10,Lauren,3,Through
+10,Lauren,4,Through
+10,Lauren,5,Eliminated
+10,Luke,1,Through
+10,Luke,2,Through
+10,Luke,3,Through
+10,Luke,4,Through
+10,Luke,5,Through
+10,Luke,6,Through
+10,Luke,7,Through
+10,Luke,8,Garment of the week
+10,Luke,9,Through
+10,Luke,10,Winner
+10,Marcus,1,Through
+10,Marcus,2,Through
+10,Marcus,3,Through
+10,Marcus,4,Through
+10,Marcus,5,Through
+10,Marcus,6,Through
+10,Marcus,7,Eliminated
+10,Neil,1,Eliminated
+10,Pascha,1,Through
+10,Pascha,2,Through
+10,Pascha,3,Through
+10,Pascha,4,Through
+10,Pascha,5,Through
+10,Pascha,6,Garment of the week
+10,Pascha,7,Garment of the week
+10,Pascha,8,Through
+10,Pascha,9,Garment of the week
+10,Pascha,10,Runner-up
+10,Suzy,1,Garment of the week
+10,Suzy,2,Through
+10,Suzy,3,Through
+10,Suzy,4,Through
+10,Suzy,5,Through
+10,Suzy,6,Through
+10,Suzy,7,Through
+10,Suzy,8,Through
+10,Suzy,9,Eliminated
