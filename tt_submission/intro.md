@@ -7,6 +7,12 @@ automatic scripts. We usually include brief introduction along the lines of
 SOURCE".
 -->
 
+This week we're looking at The Great British Sewing Bee (GBSB).
+
+The Great British Sewing Bee is a BBC reality show that has talented amateur sewers 
+compete to be named "Britain's best home sewer". 
+Data about the show has been sourced from Wikipedia.
+
 <!-- Add a quote from the source, starting lines with a ">" character, like 
 this:
 > Plant traits are critical to plant form and function — including growth, 
@@ -17,10 +23,21 @@ this:
 > subtropical ecosystems.
 -->
 
-> PasteQuoteHere
+> The show format is similar to The Great British Bake Off in that each episode 
+> features three challenges within an overall theme. The series starts with 10 amateur 
+> sewers, with the weakest eliminated each episode. In the Pattern Challenge, the 
+> judges give them the same pattern, which they must follow as accurately as possible. 
+> In the Transformation Challenge, existing garments or fabrics of a similar form, 
+> picked from a rail provided by the programme, or sourced by the contestants 
+> themselves, are reinvented by the sewers as a specified different type of garment. 
+> In the third Made-to-measure Challenge, the sewers design and create their own 
+> garments, and must adjust their patterns to fit human models.
 
 <!--
 Optional: Add questions that users should try to answer. For example:
 - How does the sizes of the different species of palms vary across sub families?
 - Which fruit colors occur most often?
 -->
+
+- How have viewership numbers changed across series?
+- Does sewer performance in the first four weeks indicate who the series winner will be?

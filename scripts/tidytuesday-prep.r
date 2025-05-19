@@ -61,7 +61,7 @@ gbsb_ratings <- gbsb_ratings |>
 
 #--- create introduction ---
 
-tt_intro()
+#tt_intro()
 
 #--- provide metadata ---
 

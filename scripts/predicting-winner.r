@@ -74,6 +74,142 @@ in_running <- gbsb_episodes |>
 
 log_obj("in_running")
 
+#--- functions for proportion test ---
+
+prop_test <- function(
+    data,
+    group,
+    event,
+    confidence_level = 0.95,
+    direction = "two.sided", #' less') {
+  # get z to use in confidence intervals
+  signif_z <- qnorm(
+
+    (1 - confidence_level) / if_else(direction == "two.sided", 2, 1),
+    lower.tail = FALSE
+  )
+
+  # summarise by the groups you are comparing
+  data_summary <- data |>
+    group_by({{ group }}) |>
+    summarise(
+      tot_n = n(),
+      event_n = sum({{ event }}),
+      event_pct = mean({{ event }})
+    ) |>
+    ungroup() |>
+    mutate(
+      event_sd = sqrt((1 / tot_n) * event_pct * (1 - event_pct)),
+      lci = pmax(event_pct - (signif_z * event_sd), 0),
+      uci = pmin(event_pct + (signif_z * event_sd), 1)
+    )
+
+  # apply the proportion test and add interpretation
+  data_test <- prop.test(
+    x = data_summary$event_n,
+    n = data_summary$tot_n,
+    conf.level = confidence_level,
+    alternative = direction
+  ) |>
+    broom::tidy() |>
+    rename(
+      p_value = p.value,
+      diff_lci = conf.low,
+      diff_uci = conf.high
+    ) |>
+    mutate(
+      signif = p_value <= (1 - confidence_level),
+      signif_tick = if_else(signif, "✔", "✖"),
+      interpret = case_when(
+        !signif ~ glue::glue(
+          "Insufficient evidence of difference at {percent(confidence_level)} confidence"
+        ),
+        TRUE ~ glue::glue(
+          "Evidence of difference at {percent(confidence_level)} confidence"
+        )
+      ),
+      confidence_level = confidence_level
+    )
+
+  # print summary to the log
+  data_summary |>
+    transmute(
+
+      {{ group }},
+      print = glue("{percent(event_pct, 0.1)} ({percent(lci, 0.1)} - {percent(uci, 0.1)})")
+    ) |>
+    spread(key = {{ group }}, value = print) |>
+    bind_cols(
+      data_test |>
+        transmute(
+
+          method,
+          alternative,
+          confidence_level = percent(confidence_level),
+          interpret,
+          p_value = percent(p_value, 0.001)
+        )
+    ) |>
+    cli_dl()
+
+  # return summary with prop test results appended
+
+  return(
+    data_summary |>
+      bind_cols(
+        data_test |>
+          gather(starts_with("estimate"), key = "xx", value = "estimate") |>
+          select(-xx)
+      ) |>
+      invisible()
+  )
+}
+
+prop_test_chart <- function(data, compare_group, within_group = NULL) {
+  data <- data |>
+    mutate(
+      facet_name = coalesce({{ within_group }}, "Total"),
+      facet_name = paste(facet_name, signif_tick)
+    )
+
+  confidence_level = percent(data$confidence_level[1])
+  
+  p <- data |>
+    mutate(compare_group = {{ compare_group }}) |>
+    ggplot(aes(compare_group, event_pct,
+      ymax = uci, ymin = lci,
+      colour = compare_group
+    )) +
+    geom_pointrange() +
+    geom_point(aes(size = signif), shape = 21, fill = NA) +
+    scale_y_continuous(label = percent) +
+    scale_size_manual(values = c("TRUE" = 4, "FALSE" = 0)) +
+    labs(
+      x = NULL, y = NULL, colour = NULL,
+      subtitle = glue("Differences significant at {confidence_level} confidence are circled")
+    ) +
+    guides(colour = "none", size = "none")
+
+  if (length(unique(data$facet_name)) > 1) {
+    p <- p + facet_wrap(~facet_name, nrow = 1)
+  }
+
+  return(p)
+}
+
+in_running |> 
+  mutate(
+    best_pattern_1_2 = if_else(best_pattern <= 2, 'First or second', 'Third plus')
+  ) |> 
+  prop_test(group = best_pattern_1_2, event = target, confidence_level = 0.8) |> 
+  prop_test_chart(best_pattern_1_2) +
+  scale_colour_manual(values = c(gbsb_col$blue, gbsb_col$red)) +
+  labs(
+    title = 'Probablilty of winning with a first or second in the first four\npattern challenges'
+  )
+
+gg_save("winner-best-pattern-1-2-prop-test")
+
 #--- pattern challenge ---
 
 in_running |>
