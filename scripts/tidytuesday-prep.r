@@ -8,7 +8,7 @@ cli::cli_h1("tidytuesday-prep.r")
 #' Using vignette: https://dslc-io.github.io/tidytuesdayR/articles/curating.html
 #-------------------------------------------------------------------------------
 
-source("scripts/_setup.r")  
+source("scripts/_setup.r")
 
 # tt_curate_data()
 
@@ -22,37 +22,37 @@ source("scripts/data-engineering.r")
 
 # sewers
 
-gbsb_sewers <- gbsb_sewers |> 
+gbsb_sewers <- gbsb_sewers |>
   mutate(
     series = as.integer(series),
     placement = as.character(placement)
-  ) 
+  )
 
-#tt_save_dataset(gbsb_sewers)
+# tt_save_dataset(gbsb_sewers)
 
 # series overview
 
-gbsb_overview <- gbsb_overview |> 
+gbsb_overview <- gbsb_overview |>
   mutate(
     series = as.integer(series)
   )
 
-#tt_save_dataset(gbsb_overview)
+# tt_save_dataset(gbsb_overview)
 
 # eliminations
 
-gbsb_eliminations <- gbsb_eliminations |> 
+gbsb_eliminations <- gbsb_eliminations |>
   mutate(
     series = as.integer(series),
     episode = as.integer(episode),
     result = as.character(result)
   )
 
-#tt_save_dataset(gbsb_eliminations)
+# tt_save_dataset(gbsb_eliminations)
 
 # ratings
 
-gbsb_ratings <- gbsb_ratings |> 
+gbsb_ratings <- gbsb_ratings |>
   mutate(
     series = as.integer(series)
   )
@@ -61,7 +61,7 @@ gbsb_ratings <- gbsb_ratings |>
 
 #--- create introduction ---
 
-#tt_intro()
+# tt_intro()
 
 #--- provide metadata ---
 
@@ -84,5 +84,3 @@ tt_meta(
 # If you make changes, run tt_submit() again to update the pull request.
 
 # tt_submit()
-
-

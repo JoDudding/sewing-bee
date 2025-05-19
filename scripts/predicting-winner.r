@@ -81,10 +81,9 @@ prop_test <- function(
     group,
     event,
     confidence_level = 0.95,
-    direction = "two.sided", #' less') {
+    direction = "two.sided") {
   # get z to use in confidence intervals
   signif_z <- qnorm(
-
     (1 - confidence_level) / if_else(direction == "two.sided", 2, 1),
     lower.tail = FALSE
   )
@@ -172,8 +171,8 @@ prop_test_chart <- function(data, compare_group, within_group = NULL) {
       facet_name = paste(facet_name, signif_tick)
     )
 
-  confidence_level = percent(data$confidence_level[1])
-  
+  confidence_level <- percent(data$confidence_level[1])
+
   p <- data |>
     mutate(compare_group = {{ compare_group }}) |>
     ggplot(aes(compare_group, event_pct,
@@ -197,15 +196,15 @@ prop_test_chart <- function(data, compare_group, within_group = NULL) {
   return(p)
 }
 
-in_running |> 
+in_running |>
   mutate(
-    best_pattern_1_2 = if_else(best_pattern <= 2, 'First or second', 'Third plus')
-  ) |> 
-  prop_test(group = best_pattern_1_2, event = target, confidence_level = 0.8) |> 
+    best_pattern_1_2 = if_else(best_pattern <= 2, "First or second", "Third plus")
+  ) |>
+  prop_test(group = best_pattern_1_2, event = target, confidence_level = 0.8) |>
   prop_test_chart(best_pattern_1_2) +
   scale_colour_manual(values = c(gbsb_col$blue, gbsb_col$red)) +
   labs(
-    title = 'Probablilty of winning with a first or second in the first four\npattern challenges'
+    title = "Probablilty of winning with a first or second in the first four\npattern challenges"
   )
 
 gg_save("winner-best-pattern-1-2-prop-test")
